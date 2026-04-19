@@ -39,5 +39,3370 @@
         "date": "2026-04-19T20:43:20.594221"
       }
     }
+  },
+  "2026-01-01": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.692,
+        "sp95_moy": 1.729,
+        "stations_count": 552
+      },
+      "Leclerc": {
+        "gazole_moy": 1.687,
+        "sp95_moy": null,
+        "stations_count": 21
+      },
+      "Carrefour": {
+        "gazole_moy": 1.707,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.764,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.652,
+        "sp95_moy": null,
+        "stations_count": 5
+      }
+    }
+  },
+  "2026-01-02": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.677,
+        "sp95_moy": 1.699,
+        "stations_count": 664
+      },
+      "Leclerc": {
+        "gazole_moy": 1.687,
+        "sp95_moy": 1.729,
+        "stations_count": 22
+      },
+      "Bp": {
+        "gazole_moy": 1.668,
+        "sp95_moy": 1.71,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.716,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Intermarche": {
+        "gazole_moy": 1.659,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 1.764,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-03": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.688,
+        "sp95_moy": 1.706,
+        "stations_count": 467
+      },
+      "Leclerc": {
+        "gazole_moy": 1.686,
+        "sp95_moy": null,
+        "stations_count": 16
+      },
+      "Bp": {
+        "gazole_moy": 1.703,
+        "sp95_moy": 1.709,
+        "stations_count": 5
+      },
+      "Carrefour": {
+        "gazole_moy": 1.717,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.764,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-04": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.695,
+        "sp95_moy": 1.719,
+        "stations_count": 386
+      },
+      "Leclerc": {
+        "gazole_moy": 1.697,
+        "sp95_moy": null,
+        "stations_count": 13
+      },
+      "Carrefour": {
+        "gazole_moy": 1.717,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.764,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.72,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-05": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.68,
+        "sp95_moy": 1.711,
+        "stations_count": 635
+      },
+      "Leclerc": {
+        "gazole_moy": 1.69,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Bp": {
+        "gazole_moy": 1.675,
+        "sp95_moy": 1.709,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.728,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.764,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-06": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.69,
+        "sp95_moy": 1.711,
+        "stations_count": 630
+      },
+      "Leclerc": {
+        "gazole_moy": 1.699,
+        "sp95_moy": null,
+        "stations_count": 20
+      },
+      "Total": {
+        "gazole_moy": 1.742,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.679,
+        "sp95_moy": 1.697,
+        "stations_count": 5
+      },
+      "Carrefour": {
+        "gazole_moy": 1.745,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-01-07": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.689,
+        "sp95_moy": 1.714,
+        "stations_count": 595
+      },
+      "Leclerc": {
+        "gazole_moy": 1.691,
+        "sp95_moy": null,
+        "stations_count": 17
+      },
+      "Total": {
+        "gazole_moy": 1.739,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.655,
+        "sp95_moy": 1.697,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.736,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-08": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.683,
+        "sp95_moy": 1.709,
+        "stations_count": 605
+      },
+      "Leclerc": {
+        "gazole_moy": 1.669,
+        "sp95_moy": 1.715,
+        "stations_count": 22
+      },
+      "Bp": {
+        "gazole_moy": 1.67,
+        "sp95_moy": 1.696,
+        "stations_count": 9
+      },
+      "Carrefour": {
+        "gazole_moy": 1.742,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.769,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-09": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.682,
+        "sp95_moy": 1.704,
+        "stations_count": 614
+      },
+      "Leclerc": {
+        "gazole_moy": 1.663,
+        "sp95_moy": null,
+        "stations_count": 18
+      },
+      "Bp": {
+        "gazole_moy": 1.654,
+        "sp95_moy": 1.685,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.74,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Intermarche": {
+        "gazole_moy": 1.639,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 1.766,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-10": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.685,
+        "sp95_moy": 1.715,
+        "stations_count": 499
+      },
+      "Leclerc": {
+        "gazole_moy": 1.675,
+        "sp95_moy": null,
+        "stations_count": 16
+      },
+      "Carrefour": {
+        "gazole_moy": 1.74,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.765,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.679,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-11": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.697,
+        "sp95_moy": 1.711,
+        "stations_count": 146
+      },
+      "Carrefour": {
+        "gazole_moy": 1.729,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Leclerc": {
+        "gazole_moy": 1.719,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Bp": {
+        "gazole_moy": 1.639,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-01-12": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.687,
+        "sp95_moy": 1.71,
+        "stations_count": 685
+      },
+      "Leclerc": {
+        "gazole_moy": 1.689,
+        "sp95_moy": null,
+        "stations_count": 27
+      },
+      "Bp": {
+        "gazole_moy": 1.656,
+        "sp95_moy": 1.688,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.735,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.765,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-13": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.687,
+        "sp95_moy": 1.711,
+        "stations_count": 670
+      },
+      "Leclerc": {
+        "gazole_moy": 1.688,
+        "sp95_moy": null,
+        "stations_count": 23
+      },
+      "Bp": {
+        "gazole_moy": 1.665,
+        "sp95_moy": 1.7,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.73,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Total": {
+        "gazole_moy": 1.765,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-14": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.695,
+        "sp95_moy": 1.714,
+        "stations_count": 669
+      },
+      "Leclerc": {
+        "gazole_moy": 1.696,
+        "sp95_moy": null,
+        "stations_count": 23
+      },
+      "Total": {
+        "gazole_moy": 1.747,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.66,
+        "sp95_moy": 1.699,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.737,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 1.649,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-15": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.704,
+        "sp95_moy": 1.726,
+        "stations_count": 683
+      },
+      "Leclerc": {
+        "gazole_moy": 1.705,
+        "sp95_moy": null,
+        "stations_count": 26
+      },
+      "Total": {
+        "gazole_moy": 1.76,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.674,
+        "sp95_moy": 1.709,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.747,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-16": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.699,
+        "sp95_moy": 1.722,
+        "stations_count": 646
+      },
+      "Leclerc": {
+        "gazole_moy": 1.7,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Total": {
+        "gazole_moy": 1.759,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.682,
+        "sp95_moy": 1.707,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 1.756,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Intermarche": {
+        "gazole_moy": 1.659,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-17": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.711,
+        "sp95_moy": 1.722,
+        "stations_count": 553
+      },
+      "Leclerc": {
+        "gazole_moy": 1.704,
+        "sp95_moy": 1.705,
+        "stations_count": 19
+      },
+      "Bp": {
+        "gazole_moy": 1.68,
+        "sp95_moy": 1.707,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 1.75,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.794,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-18": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.714,
+        "sp95_moy": 1.731,
+        "stations_count": 383
+      },
+      "Leclerc": {
+        "gazole_moy": 1.699,
+        "sp95_moy": null,
+        "stations_count": 13
+      },
+      "Carrefour": {
+        "gazole_moy": 1.757,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.794,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.696,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-19": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.708,
+        "sp95_moy": 1.72,
+        "stations_count": 423
+      },
+      "Total": {
+        "gazole_moy": 1.734,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Leclerc": {
+        "gazole_moy": 1.707,
+        "sp95_moy": null,
+        "stations_count": 20
+      },
+      "Bp": {
+        "gazole_moy": 1.644,
+        "sp95_moy": 1.7,
+        "stations_count": 5
+      },
+      "Carrefour": {
+        "gazole_moy": 1.736,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-01-20": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.708,
+        "sp95_moy": 1.718,
+        "stations_count": 656
+      },
+      "Leclerc": {
+        "gazole_moy": 1.708,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Total": {
+        "gazole_moy": 1.762,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.673,
+        "sp95_moy": 1.7,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.755,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-21": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.711,
+        "sp95_moy": 1.72,
+        "stations_count": 627
+      },
+      "Leclerc": {
+        "gazole_moy": 1.712,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Total": {
+        "gazole_moy": 1.765,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.671,
+        "sp95_moy": 1.7,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.759,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-22": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.722,
+        "sp95_moy": 1.721,
+        "stations_count": 698
+      },
+      "Leclerc": {
+        "gazole_moy": 1.721,
+        "sp95_moy": 1.705,
+        "stations_count": 28
+      },
+      "Total": {
+        "gazole_moy": 1.781,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.685,
+        "sp95_moy": 1.7,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.763,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-23": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.714,
+        "sp95_moy": 1.718,
+        "stations_count": 699
+      },
+      "Leclerc": {
+        "gazole_moy": 1.72,
+        "sp95_moy": null,
+        "stations_count": 24
+      },
+      "Total": {
+        "gazole_moy": 1.772,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.691,
+        "sp95_moy": 1.7,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.766,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-24": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.723,
+        "sp95_moy": 1.719,
+        "stations_count": 522
+      },
+      "Leclerc": {
+        "gazole_moy": 1.726,
+        "sp95_moy": null,
+        "stations_count": 18
+      },
+      "Carrefour": {
+        "gazole_moy": 1.774,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.805,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.727,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-25": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.728,
+        "sp95_moy": 1.727,
+        "stations_count": 381
+      },
+      "Leclerc": {
+        "gazole_moy": 1.716,
+        "sp95_moy": null,
+        "stations_count": 15
+      },
+      "Carrefour": {
+        "gazole_moy": 1.774,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.805,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.727,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-26": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.72,
+        "sp95_moy": 1.724,
+        "stations_count": 515
+      },
+      "Leclerc": {
+        "gazole_moy": 1.723,
+        "sp95_moy": null,
+        "stations_count": 21
+      },
+      "Total": {
+        "gazole_moy": 1.774,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Carrefour": {
+        "gazole_moy": 1.768,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Bp": {
+        "gazole_moy": 1.715,
+        "sp95_moy": null,
+        "stations_count": 5
+      }
+    }
+  },
+  "2026-01-27": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.72,
+        "sp95_moy": 1.717,
+        "stations_count": 618
+      },
+      "Leclerc": {
+        "gazole_moy": 1.722,
+        "sp95_moy": null,
+        "stations_count": 24
+      },
+      "Total": {
+        "gazole_moy": 1.774,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.698,
+        "sp95_moy": 1.7,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.768,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-28": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.719,
+        "sp95_moy": 1.719,
+        "stations_count": 613
+      },
+      "Leclerc": {
+        "gazole_moy": 1.72,
+        "sp95_moy": null,
+        "stations_count": 23
+      },
+      "Total": {
+        "gazole_moy": 1.769,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.694,
+        "sp95_moy": 1.7,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.772,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-01-29": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.722,
+        "sp95_moy": 1.721,
+        "stations_count": 636
+      },
+      "Leclerc": {
+        "gazole_moy": 1.724,
+        "sp95_moy": null,
+        "stations_count": 25
+      },
+      "Total": {
+        "gazole_moy": 1.774,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.691,
+        "sp95_moy": 1.702,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.768,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-01-30": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.721,
+        "sp95_moy": 1.721,
+        "stations_count": 680
+      },
+      "Leclerc": {
+        "gazole_moy": 1.71,
+        "sp95_moy": 1.705,
+        "stations_count": 24
+      },
+      "Total": {
+        "gazole_moy": 1.778,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.699,
+        "sp95_moy": 1.7,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.769,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 1.649,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-01-31": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.736,
+        "sp95_moy": 1.731,
+        "stations_count": 568
+      },
+      "Leclerc": {
+        "gazole_moy": 1.736,
+        "sp95_moy": null,
+        "stations_count": 18
+      },
+      "Bp": {
+        "gazole_moy": 1.716,
+        "sp95_moy": 1.7,
+        "stations_count": 5
+      },
+      "Carrefour": {
+        "gazole_moy": 1.77,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.809,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-01": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.741,
+        "sp95_moy": 1.742,
+        "stations_count": 389
+      },
+      "Leclerc": {
+        "gazole_moy": 1.728,
+        "sp95_moy": null,
+        "stations_count": 15
+      },
+      "Carrefour": {
+        "gazole_moy": 1.778,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.809,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.73,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-02": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.73,
+        "sp95_moy": 1.731,
+        "stations_count": 611
+      },
+      "Leclerc": {
+        "gazole_moy": 1.729,
+        "sp95_moy": 1.705,
+        "stations_count": 25
+      },
+      "Total": {
+        "gazole_moy": 1.784,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.714,
+        "sp95_moy": 1.712,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.77,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-03": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.733,
+        "sp95_moy": 1.726,
+        "stations_count": 557
+      },
+      "Leclerc": {
+        "gazole_moy": 1.729,
+        "sp95_moy": null,
+        "stations_count": 17
+      },
+      "Bp": {
+        "gazole_moy": 1.734,
+        "sp95_moy": 1.719,
+        "stations_count": 5
+      },
+      "Carrefour": {
+        "gazole_moy": 1.802,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Total": {
+        "gazole_moy": 1.819,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-04": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.736,
+        "sp95_moy": 1.723,
+        "stations_count": 558
+      },
+      "Leclerc": {
+        "gazole_moy": 1.732,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Total": {
+        "gazole_moy": 1.789,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.716,
+        "sp95_moy": 1.703,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 1.786,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-05": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.737,
+        "sp95_moy": 1.728,
+        "stations_count": 634
+      },
+      "Leclerc": {
+        "gazole_moy": 1.734,
+        "sp95_moy": null,
+        "stations_count": 23
+      },
+      "Total": {
+        "gazole_moy": 1.789,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.721,
+        "sp95_moy": 1.711,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.786,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-06": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.734,
+        "sp95_moy": 1.732,
+        "stations_count": 613
+      },
+      "Leclerc": {
+        "gazole_moy": 1.735,
+        "sp95_moy": null,
+        "stations_count": 23
+      },
+      "Total": {
+        "gazole_moy": 1.789,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.707,
+        "sp95_moy": 1.717,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.781,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-07": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.736,
+        "sp95_moy": 1.744,
+        "stations_count": 557
+      },
+      "Leclerc": {
+        "gazole_moy": 1.728,
+        "sp95_moy": null,
+        "stations_count": 19
+      },
+      "Carrefour": {
+        "gazole_moy": 1.786,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.816,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.732,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-08": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.739,
+        "sp95_moy": 1.759,
+        "stations_count": 382
+      },
+      "Leclerc": {
+        "gazole_moy": 1.729,
+        "sp95_moy": null,
+        "stations_count": 15
+      },
+      "Carrefour": {
+        "gazole_moy": 1.786,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.816,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.732,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-09": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.73,
+        "sp95_moy": 1.734,
+        "stations_count": 537
+      },
+      "Leclerc": {
+        "gazole_moy": 1.729,
+        "sp95_moy": null,
+        "stations_count": 21
+      },
+      "Bp": {
+        "gazole_moy": 1.709,
+        "sp95_moy": 1.726,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.786,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.816,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-10": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.728,
+        "sp95_moy": 1.736,
+        "stations_count": 650
+      },
+      "Leclerc": {
+        "gazole_moy": 1.725,
+        "sp95_moy": 1.705,
+        "stations_count": 25
+      },
+      "Bp": {
+        "gazole_moy": 1.705,
+        "sp95_moy": 1.716,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.778,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.815,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-11": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.724,
+        "sp95_moy": 1.74,
+        "stations_count": 614
+      },
+      "Leclerc": {
+        "gazole_moy": 1.721,
+        "sp95_moy": 1.72,
+        "stations_count": 23
+      },
+      "Bp": {
+        "gazole_moy": 1.705,
+        "sp95_moy": 1.73,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.784,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Intermarche": {
+        "gazole_moy": 1.669,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 1.814,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-12": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.734,
+        "sp95_moy": 1.739,
+        "stations_count": 577
+      },
+      "Leclerc": {
+        "gazole_moy": 1.737,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Bp": {
+        "gazole_moy": 1.714,
+        "sp95_moy": 1.73,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 1.784,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.819,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-13": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.725,
+        "sp95_moy": 1.745,
+        "stations_count": 598
+      },
+      "Leclerc": {
+        "gazole_moy": 1.72,
+        "sp95_moy": 1.72,
+        "stations_count": 23
+      },
+      "Bp": {
+        "gazole_moy": 1.714,
+        "sp95_moy": 1.73,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 1.78,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.814,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-14": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.729,
+        "sp95_moy": 1.74,
+        "stations_count": 547
+      },
+      "Leclerc": {
+        "gazole_moy": 1.726,
+        "sp95_moy": null,
+        "stations_count": 19
+      },
+      "Bp": {
+        "gazole_moy": 1.72,
+        "sp95_moy": 1.73,
+        "stations_count": 5
+      },
+      "Carrefour": {
+        "gazole_moy": 1.782,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.809,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-15": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.746,
+        "sp95_moy": 1.747,
+        "stations_count": 147
+      },
+      "Carrefour": {
+        "gazole_moy": 1.769,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Leclerc": {
+        "gazole_moy": 1.746,
+        "sp95_moy": null,
+        "stations_count": 6
+      },
+      "Bp": {
+        "gazole_moy": 1.709,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-02-16": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.721,
+        "sp95_moy": 1.735,
+        "stations_count": 766
+      },
+      "Leclerc": {
+        "gazole_moy": 1.716,
+        "sp95_moy": null,
+        "stations_count": 30
+      },
+      "Bp": {
+        "gazole_moy": 1.71,
+        "sp95_moy": 1.73,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.783,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Total": {
+        "gazole_moy": 1.809,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-02-17": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.72,
+        "sp95_moy": 1.734,
+        "stations_count": 602
+      },
+      "Leclerc": {
+        "gazole_moy": 1.723,
+        "sp95_moy": null,
+        "stations_count": 23
+      },
+      "Bp": {
+        "gazole_moy": 1.698,
+        "sp95_moy": 1.73,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 1.776,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.809,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-18": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.722,
+        "sp95_moy": 1.738,
+        "stations_count": 518
+      },
+      "Leclerc": {
+        "gazole_moy": 1.717,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Bp": {
+        "gazole_moy": 1.694,
+        "sp95_moy": 1.725,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.782,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Intermarche": {
+        "gazole_moy": 1.689,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 1.809,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-19": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.728,
+        "sp95_moy": 1.734,
+        "stations_count": 613
+      },
+      "Leclerc": {
+        "gazole_moy": 1.726,
+        "sp95_moy": null,
+        "stations_count": 23
+      },
+      "Bp": {
+        "gazole_moy": 1.701,
+        "sp95_moy": 1.72,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.781,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.815,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-20": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.72,
+        "sp95_moy": 1.689,
+        "stations_count": 805
+      },
+      "Leclerc": {
+        "gazole_moy": 1.718,
+        "sp95_moy": 1.615,
+        "stations_count": 31
+      },
+      "Bp": {
+        "gazole_moy": 1.711,
+        "sp95_moy": 1.713,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.799,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Intermarche": {
+        "gazole_moy": 1.572,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 1.845,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-21": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.741,
+        "sp95_moy": 1.724,
+        "stations_count": 546
+      },
+      "Leclerc": {
+        "gazole_moy": 1.721,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Bp": {
+        "gazole_moy": 1.728,
+        "sp95_moy": 1.705,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 1.801,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 1.685,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 1.845,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-22": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.754,
+        "sp95_moy": 1.737,
+        "stations_count": 419
+      },
+      "Leclerc": {
+        "gazole_moy": 1.743,
+        "sp95_moy": 1.739,
+        "stations_count": 18
+      },
+      "Carrefour": {
+        "gazole_moy": 1.812,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.845,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.751,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-23": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.745,
+        "sp95_moy": 1.745,
+        "stations_count": 661
+      },
+      "Leclerc": {
+        "gazole_moy": 1.743,
+        "sp95_moy": null,
+        "stations_count": 25
+      },
+      "Total": {
+        "gazole_moy": 1.815,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.722,
+        "sp95_moy": 1.731,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.806,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-24": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.757,
+        "sp95_moy": 1.753,
+        "stations_count": 722
+      },
+      "Leclerc": {
+        "gazole_moy": 1.767,
+        "sp95_moy": null,
+        "stations_count": 25
+      },
+      "Total": {
+        "gazole_moy": 1.82,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.734,
+        "sp95_moy": 1.745,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.808,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-25": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.761,
+        "sp95_moy": 1.759,
+        "stations_count": 691
+      },
+      "Leclerc": {
+        "gazole_moy": 1.762,
+        "sp95_moy": null,
+        "stations_count": 27
+      },
+      "Total": {
+        "gazole_moy": 1.821,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.747,
+        "sp95_moy": 1.745,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 1.809,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 1.709,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-26": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.764,
+        "sp95_moy": 1.764,
+        "stations_count": 606
+      },
+      "Leclerc": {
+        "gazole_moy": 1.755,
+        "sp95_moy": null,
+        "stations_count": 22
+      },
+      "Bp": {
+        "gazole_moy": 1.756,
+        "sp95_moy": 1.745,
+        "stations_count": 5
+      },
+      "Carrefour": {
+        "gazole_moy": 1.817,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.856,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-02-27": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.768,
+        "sp95_moy": 1.759,
+        "stations_count": 686
+      },
+      "Leclerc": {
+        "gazole_moy": 1.766,
+        "sp95_moy": null,
+        "stations_count": 29
+      },
+      "Total": {
+        "gazole_moy": 1.829,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.756,
+        "sp95_moy": 1.745,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 1.811,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-02-28": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.777,
+        "sp95_moy": 1.773,
+        "stations_count": 546
+      },
+      "Leclerc": {
+        "gazole_moy": 1.78,
+        "sp95_moy": null,
+        "stations_count": 20
+      },
+      "Carrefour": {
+        "gazole_moy": 1.819,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.861,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.782,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-01": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.783,
+        "sp95_moy": 1.775,
+        "stations_count": 389
+      },
+      "Leclerc": {
+        "gazole_moy": 1.765,
+        "sp95_moy": null,
+        "stations_count": 15
+      },
+      "Carrefour": {
+        "gazole_moy": 1.819,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.861,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 1.782,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-02": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.78,
+        "sp95_moy": 1.76,
+        "stations_count": 907
+      },
+      "Leclerc": {
+        "gazole_moy": 1.782,
+        "sp95_moy": null,
+        "stations_count": 33
+      },
+      "Total": {
+        "gazole_moy": 1.83,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.762,
+        "sp95_moy": 1.752,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.821,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Intermarche": {
+        "gazole_moy": 1.729,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-03-03": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.867,
+        "sp95_moy": 1.809,
+        "stations_count": 1088
+      },
+      "Leclerc": {
+        "gazole_moy": 1.885,
+        "sp95_moy": 1.805,
+        "stations_count": 36
+      },
+      "Total": {
+        "gazole_moy": 1.93,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.841,
+        "sp95_moy": 1.774,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 1.904,
+        "sp95_moy": null,
+        "stations_count": 6
+      }
+    }
+  },
+  "2026-03-04": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.961,
+        "sp95_moy": 1.832,
+        "stations_count": 881
+      },
+      "Leclerc": {
+        "gazole_moy": 1.982,
+        "sp95_moy": 1.805,
+        "stations_count": 27
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.946,
+        "sp95_moy": null,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.036,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-03-05": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 1.981,
+        "sp95_moy": 1.849,
+        "stations_count": 841
+      },
+      "Leclerc": {
+        "gazole_moy": 2.001,
+        "sp95_moy": 1.835,
+        "stations_count": 29
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 1.969,
+        "sp95_moy": 1.815,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.029,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-06": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.027,
+        "sp95_moy": 1.853,
+        "stations_count": 945
+      },
+      "Leclerc": {
+        "gazole_moy": 2.05,
+        "sp95_moy": 1.835,
+        "stations_count": 33
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.005,
+        "sp95_moy": 1.839,
+        "stations_count": 9
+      },
+      "Carrefour": {
+        "gazole_moy": 2.075,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Intermarche": {
+        "gazole_moy": 1.984,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-07": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.029,
+        "sp95_moy": 1.857,
+        "stations_count": 618
+      },
+      "Leclerc": {
+        "gazole_moy": 2.039,
+        "sp95_moy": 1.835,
+        "stations_count": 23
+      },
+      "Bp": {
+        "gazole_moy": 2.02,
+        "sp95_moy": 1.839,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 2.083,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Intermarche": {
+        "gazole_moy": 1.989,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-03-08": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.027,
+        "sp95_moy": 1.873,
+        "stations_count": 394
+      },
+      "Leclerc": {
+        "gazole_moy": 2.031,
+        "sp95_moy": null,
+        "stations_count": 16
+      },
+      "Carrefour": {
+        "gazole_moy": 2.083,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Bp": {
+        "gazole_moy": 2.034,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-09": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.065,
+        "sp95_moy": 1.871,
+        "stations_count": 946
+      },
+      "Leclerc": {
+        "gazole_moy": 2.075,
+        "sp95_moy": null,
+        "stations_count": 39
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.06,
+        "sp95_moy": 1.839,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.129,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Intermarche": {
+        "gazole_moy": 2.039,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-03-10": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.069,
+        "sp95_moy": 1.914,
+        "stations_count": 761
+      },
+      "Leclerc": {
+        "gazole_moy": 2.085,
+        "sp95_moy": 1.945,
+        "stations_count": 27
+      },
+      "Bp": {
+        "gazole_moy": 2.082,
+        "sp95_moy": 1.852,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.144,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-03-11": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.073,
+        "sp95_moy": 1.911,
+        "stations_count": 720
+      },
+      "Leclerc": {
+        "gazole_moy": 2.075,
+        "sp95_moy": 1.889,
+        "stations_count": 28
+      },
+      "Bp": {
+        "gazole_moy": 2.076,
+        "sp95_moy": 1.902,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.134,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-03-12": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.059,
+        "sp95_moy": 1.908,
+        "stations_count": 752
+      },
+      "Leclerc": {
+        "gazole_moy": 2.071,
+        "sp95_moy": 1.875,
+        "stations_count": 24
+      },
+      "Bp": {
+        "gazole_moy": 2.055,
+        "sp95_moy": 1.854,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.129,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 1.99,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-03-13": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.081,
+        "sp95_moy": 1.915,
+        "stations_count": 1261
+      },
+      "Leclerc": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 47
+      },
+      "Total": {
+        "gazole_moy": 2.057,
+        "sp95_moy": null,
+        "stations_count": 6
+      },
+      "Bp": {
+        "gazole_moy": 2.069,
+        "sp95_moy": 1.873,
+        "stations_count": 12
+      },
+      "Carrefour": {
+        "gazole_moy": 2.139,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Intermarche": {
+        "gazole_moy": 2.049,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-03-14": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.076,
+        "sp95_moy": 1.909,
+        "stations_count": 501
+      },
+      "Leclerc": {
+        "gazole_moy": 2.097,
+        "sp95_moy": null,
+        "stations_count": 17
+      },
+      "Bp": {
+        "gazole_moy": 2.072,
+        "sp95_moy": 1.851,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.146,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.04,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-15": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.088,
+        "sp95_moy": 1.934,
+        "stations_count": 387
+      },
+      "Leclerc": {
+        "gazole_moy": 2.101,
+        "sp95_moy": null,
+        "stations_count": 16
+      },
+      "Carrefour": {
+        "gazole_moy": 2.146,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.04,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.099,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-16": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.093,
+        "sp95_moy": 1.944,
+        "stations_count": 608
+      },
+      "Leclerc": {
+        "gazole_moy": 2.108,
+        "sp95_moy": null,
+        "stations_count": 25
+      },
+      "Bp": {
+        "gazole_moy": 2.099,
+        "sp95_moy": 1.893,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 2.157,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 2.069,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 2.04,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-17": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.127,
+        "sp95_moy": 1.958,
+        "stations_count": 786
+      },
+      "Leclerc": {
+        "gazole_moy": 2.144,
+        "sp95_moy": 1.915,
+        "stations_count": 29
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Bp": {
+        "gazole_moy": 2.132,
+        "sp95_moy": 1.939,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.179,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-18": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.145,
+        "sp95_moy": 1.959,
+        "stations_count": 730
+      },
+      "Leclerc": {
+        "gazole_moy": 2.164,
+        "sp95_moy": 1.955,
+        "stations_count": 31
+      },
+      "Carrefour": {
+        "gazole_moy": 2.204,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Bp": {
+        "gazole_moy": 2.167,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-19": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.198,
+        "sp95_moy": 1.984,
+        "stations_count": 808
+      },
+      "Leclerc": {
+        "gazole_moy": 2.221,
+        "sp95_moy": null,
+        "stations_count": 35
+      },
+      "Bp": {
+        "gazole_moy": 2.191,
+        "sp95_moy": 1.931,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.273,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Intermarche": {
+        "gazole_moy": 2.089,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-20": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.216,
+        "sp95_moy": 2.006,
+        "stations_count": 762
+      },
+      "Leclerc": {
+        "gazole_moy": 2.227,
+        "sp95_moy": 2.049,
+        "stations_count": 30
+      },
+      "Bp": {
+        "gazole_moy": 2.24,
+        "sp95_moy": 1.982,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.314,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 2.099,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-21": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.202,
+        "sp95_moy": 2.012,
+        "stations_count": 512
+      },
+      "Leclerc": {
+        "gazole_moy": 2.223,
+        "sp95_moy": null,
+        "stations_count": 19
+      },
+      "Bp": {
+        "gazole_moy": 2.228,
+        "sp95_moy": 1.969,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 2.303,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-22": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.192,
+        "sp95_moy": 2.018,
+        "stations_count": 410
+      },
+      "Leclerc": {
+        "gazole_moy": 2.203,
+        "sp95_moy": null,
+        "stations_count": 17
+      },
+      "Carrefour": {
+        "gazole_moy": 2.303,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.229,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-23": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.267,
+        "sp95_moy": 2.031,
+        "stations_count": 822
+      },
+      "Leclerc": {
+        "gazole_moy": 2.269,
+        "sp95_moy": null,
+        "stations_count": 36
+      },
+      "Bp": {
+        "gazole_moy": 2.296,
+        "sp95_moy": 2.019,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.363,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-03-24": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.262,
+        "sp95_moy": 2.034,
+        "stations_count": 834
+      },
+      "Leclerc": {
+        "gazole_moy": 2.279,
+        "sp95_moy": null,
+        "stations_count": 24
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Bp": {
+        "gazole_moy": 2.294,
+        "sp95_moy": 2.017,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.342,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-25": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.239,
+        "sp95_moy": 2.025,
+        "stations_count": 754
+      },
+      "Leclerc": {
+        "gazole_moy": 2.248,
+        "sp95_moy": 1.985,
+        "stations_count": 24
+      },
+      "Bp": {
+        "gazole_moy": 2.252,
+        "sp95_moy": 1.977,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.319,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 2.199,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-26": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.219,
+        "sp95_moy": 2.001,
+        "stations_count": 712
+      },
+      "Leclerc": {
+        "gazole_moy": 2.22,
+        "sp95_moy": 1.955,
+        "stations_count": 26
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Bp": {
+        "gazole_moy": 2.236,
+        "sp95_moy": 1.979,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.287,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-27": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.214,
+        "sp95_moy": 2.011,
+        "stations_count": 719
+      },
+      "Leclerc": {
+        "gazole_moy": 2.215,
+        "sp95_moy": null,
+        "stations_count": 24
+      },
+      "Bp": {
+        "gazole_moy": 2.207,
+        "sp95_moy": 1.957,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.284,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-28": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.202,
+        "sp95_moy": 2.02,
+        "stations_count": 496
+      },
+      "Leclerc": {
+        "gazole_moy": 2.171,
+        "sp95_moy": 1.985,
+        "stations_count": 17
+      },
+      "Carrefour": {
+        "gazole_moy": 2.269,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Bp": {
+        "gazole_moy": 2.207,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-29": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.177,
+        "sp95_moy": 2.023,
+        "stations_count": 383
+      },
+      "Leclerc": {
+        "gazole_moy": 2.171,
+        "sp95_moy": null,
+        "stations_count": 14
+      },
+      "Carrefour": {
+        "gazole_moy": 2.269,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.2,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-03-30": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.253,
+        "sp95_moy": 2.025,
+        "stations_count": 832
+      },
+      "Leclerc": {
+        "gazole_moy": 2.273,
+        "sp95_moy": 1.985,
+        "stations_count": 29
+      },
+      "Bp": {
+        "gazole_moy": 2.258,
+        "sp95_moy": 1.99,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.317,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Intermarche": {
+        "gazole_moy": 2.249,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-03-31": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.248,
+        "sp95_moy": 2.044,
+        "stations_count": 742
+      },
+      "Leclerc": {
+        "gazole_moy": 2.25,
+        "sp95_moy": 2.029,
+        "stations_count": 26
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Bp": {
+        "gazole_moy": 2.264,
+        "sp95_moy": 2.013,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.317,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-04-01": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.241,
+        "sp95_moy": 2.043,
+        "stations_count": 601
+      },
+      "Leclerc": {
+        "gazole_moy": 2.213,
+        "sp95_moy": null,
+        "stations_count": 20
+      },
+      "Bp": {
+        "gazole_moy": 2.194,
+        "sp95_moy": 2.01,
+        "stations_count": 7
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Carrefour": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-04-02": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.278,
+        "sp95_moy": 2.047,
+        "stations_count": 696
+      },
+      "Leclerc": {
+        "gazole_moy": 2.284,
+        "sp95_moy": 2.029,
+        "stations_count": 24
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Bp": {
+        "gazole_moy": 2.244,
+        "sp95_moy": 2.034,
+        "stations_count": 10
+      },
+      "Carrefour": {
+        "gazole_moy": 2.349,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-04-03": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.322,
+        "sp95_moy": 2.048,
+        "stations_count": 715
+      },
+      "Leclerc": {
+        "gazole_moy": 2.34,
+        "sp95_moy": null,
+        "stations_count": 20
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.273,
+        "sp95_moy": 1.978,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.51,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-04-04": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.294,
+        "sp95_moy": 2.048,
+        "stations_count": 446
+      },
+      "Leclerc": {
+        "gazole_moy": 2.279,
+        "sp95_moy": 2.029,
+        "stations_count": 11
+      },
+      "Bp": {
+        "gazole_moy": 2.285,
+        "sp95_moy": 1.978,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 2.383,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-04-05": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.288,
+        "sp95_moy": 2.079,
+        "stations_count": 350
+      },
+      "Leclerc": {
+        "gazole_moy": 2.276,
+        "sp95_moy": null,
+        "stations_count": 11
+      },
+      "Carrefour": {
+        "gazole_moy": 2.53,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.289,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-04-06": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.309,
+        "sp95_moy": 2.074,
+        "stations_count": 311
+      },
+      "Leclerc": {
+        "gazole_moy": 2.366,
+        "sp95_moy": null,
+        "stations_count": 11
+      },
+      "Carrefour": {
+        "gazole_moy": 2.383,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.289,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-04-07": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.349,
+        "sp95_moy": 2.058,
+        "stations_count": 651
+      },
+      "Leclerc": {
+        "gazole_moy": 2.374,
+        "sp95_moy": null,
+        "stations_count": 14
+      },
+      "Bp": {
+        "gazole_moy": 2.336,
+        "sp95_moy": 2.028,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 2.383,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Intermarche": {
+        "gazole_moy": 2.359,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 2.09,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-04-08": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.394,
+        "sp95_moy": 2.078,
+        "stations_count": 672
+      },
+      "Leclerc": {
+        "gazole_moy": 2.412,
+        "sp95_moy": 2.069,
+        "stations_count": 20
+      },
+      "Bp": {
+        "gazole_moy": 2.41,
+        "sp95_moy": 2.032,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.39,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 2.25,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-04-09": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.359,
+        "sp95_moy": 2.044,
+        "stations_count": 627
+      },
+      "Leclerc": {
+        "gazole_moy": 2.37,
+        "sp95_moy": 1.999,
+        "stations_count": 21
+      },
+      "Total": {
+        "gazole_moy": 2.25,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Bp": {
+        "gazole_moy": 2.386,
+        "sp95_moy": 2.031,
+        "stations_count": 6
+      },
+      "Carrefour": {
+        "gazole_moy": 2.432,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-04-10": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.341,
+        "sp95_moy": 2.027,
+        "stations_count": 770
+      },
+      "Leclerc": {
+        "gazole_moy": 2.356,
+        "sp95_moy": 1.999,
+        "stations_count": 25
+      },
+      "Bp": {
+        "gazole_moy": 2.343,
+        "sp95_moy": 1.95,
+        "stations_count": 9
+      },
+      "Carrefour": {
+        "gazole_moy": 2.387,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Intermarche": {
+        "gazole_moy": 1.888,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.25,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-04-11": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.314,
+        "sp95_moy": 2.03,
+        "stations_count": 644
+      },
+      "Leclerc": {
+        "gazole_moy": 2.33,
+        "sp95_moy": 1.999,
+        "stations_count": 24
+      },
+      "Bp": {
+        "gazole_moy": 2.337,
+        "sp95_moy": 1.95,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.343,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Total": {
+        "gazole_moy": 2.25,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
+  },
+  "2026-04-12": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.289,
+        "sp95_moy": 2.032,
+        "stations_count": 356
+      },
+      "Leclerc": {
+        "gazole_moy": 2.293,
+        "sp95_moy": null,
+        "stations_count": 12
+      },
+      "Carrefour": {
+        "gazole_moy": 2.323,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Total": {
+        "gazole_moy": 2.25,
+        "sp95_moy": null,
+        "stations_count": 2
+      },
+      "Bp": {
+        "gazole_moy": 2.36,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-04-13": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.295,
+        "sp95_moy": 2.02,
+        "stations_count": 686
+      },
+      "Leclerc": {
+        "gazole_moy": 2.301,
+        "sp95_moy": null,
+        "stations_count": 21
+      },
+      "Bp": {
+        "gazole_moy": 2.342,
+        "sp95_moy": 1.979,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.303,
+        "sp95_moy": null,
+        "stations_count": 5
+      },
+      "Intermarche": {
+        "gazole_moy": 2.269,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 2.25,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-04-14": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.298,
+        "sp95_moy": 2.027,
+        "stations_count": 691
+      },
+      "Leclerc": {
+        "gazole_moy": 2.306,
+        "sp95_moy": 2.019,
+        "stations_count": 23
+      },
+      "Bp": {
+        "gazole_moy": 2.304,
+        "sp95_moy": 1.968,
+        "stations_count": 8
+      },
+      "Carrefour": {
+        "gazole_moy": 2.297,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Total": {
+        "gazole_moy": 2.25,
+        "sp95_moy": null,
+        "stations_count": 3
+      }
+    }
+  },
+  "2026-04-15": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.275,
+        "sp95_moy": 2.032,
+        "stations_count": 668
+      },
+      "Leclerc": {
+        "gazole_moy": 2.289,
+        "sp95_moy": 1.989,
+        "stations_count": 26
+      },
+      "Total": {
+        "gazole_moy": 2.25,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Carrefour": {
+        "gazole_moy": 2.284,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Bp": {
+        "gazole_moy": 2.297,
+        "sp95_moy": null,
+        "stations_count": 7
+      },
+      "Intermarche": {
+        "gazole_moy": 2.289,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-04-16": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.242,
+        "sp95_moy": 2.025,
+        "stations_count": 696
+      },
+      "Leclerc": {
+        "gazole_moy": 2.237,
+        "sp95_moy": 1.989,
+        "stations_count": 25
+      },
+      "Total": {
+        "gazole_moy": 2.247,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Bp": {
+        "gazole_moy": 2.248,
+        "sp95_moy": 1.963,
+        "stations_count": 9
+      },
+      "Carrefour": {
+        "gazole_moy": 2.272,
+        "sp95_moy": null,
+        "stations_count": 4
+      }
+    }
+  },
+  "2026-04-17": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.235,
+        "sp95_moy": 2.013,
+        "stations_count": 818
+      },
+      "Leclerc": {
+        "gazole_moy": 2.242,
+        "sp95_moy": null,
+        "stations_count": 30
+      },
+      "Total": {
+        "gazole_moy": 2.248,
+        "sp95_moy": null,
+        "stations_count": 3
+      },
+      "Bp": {
+        "gazole_moy": 2.219,
+        "sp95_moy": 1.964,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.254,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 2.199,
+        "sp95_moy": null,
+        "stations_count": 1
+      }
+    }
+  },
+  "2026-04-18": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Autre": {
+        "gazole_moy": 2.175,
+        "sp95_moy": 2.014,
+        "stations_count": 631
+      },
+      "Leclerc": {
+        "gazole_moy": 2.196,
+        "sp95_moy": 1.989,
+        "stations_count": 23
+      },
+      "Bp": {
+        "gazole_moy": 2.164,
+        "sp95_moy": 1.963,
+        "stations_count": 7
+      },
+      "Carrefour": {
+        "gazole_moy": 2.2,
+        "sp95_moy": null,
+        "stations_count": 4
+      },
+      "Intermarche": {
+        "gazole_moy": 2.179,
+        "sp95_moy": null,
+        "stations_count": 1
+      },
+      "Total": {
+        "gazole_moy": 2.17,
+        "sp95_moy": null,
+        "stations_count": 2
+      }
+    }
   }
 }
