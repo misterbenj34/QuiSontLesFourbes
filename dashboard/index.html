@@ -54,14 +54,20 @@
     <p class="subtitle">Analyse comparative des prix à la pompe vs. prix du baril (en €/L)</p>
     
     <div class="controls">
-      <label for="fuel-selector"><b>Type de carburant :</b> </label>
-      <select id="fuel-selector" style="padding: 5px; font-size: 16px;">
+      <label for="fuel-selector"><b>Carburant :</b> </label>
+      <select id="fuel-selector" style="padding: 5px; font-size: 16px; margin-right: 15px;">
         <option value="gazole_moy" selected>Gazole</option>
         <option value="sp95_moy">SP95</option>
       </select>
+
+      <label for="view-selector"><b>Affichage :</b> </label>
+      <select id="view-selector" style="padding: 5px; font-size: 16px;">
+        <option value="absolute" selected>Prix réels (€/L)</option>
+        <option value="base100">Évolution (Base 100)</option>
+      </select>
     </div>
 
-    <div class="chart-container">
+    <div class="chart-container" style="position: relative; height: 65vh; min-height: 450px;">
       <canvas id="priceChart"></canvas>
     </div>
 

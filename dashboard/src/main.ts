@@ -67,21 +67,30 @@ async function renderChart() {
     }
   });
 
-  // Création du graphique
   const ctx = document.getElementById('priceChart') as HTMLCanvasElement;
   let currentChart: Chart | null = null;
+  let currentFuelType: 'gazole_moy' | 'sp95_moy' = 'gazole_moy';
+  let currentViewMode: 'absolute' | 'base100' = 'absolute';
 
-  const updateChart = (fuelType: 'gazole_moy' | 'sp95_moy') => {
+  const updateChart = () => {
     if (currentChart) {
       currentChart.destroy();
     }
 
     const datasets: any[] = [];
 
-    // Ajouter le dataset du Brent (Axe de base)
+    // Dataset Brent
+    let brentDataToUse = [...brentEurLiter];
+    if (currentViewMode === 'base100') {
+      const firstVal = brentDataToUse.find(v => v !== null);
+      if (firstVal) {
+        brentDataToUse = brentDataToUse.map(v => v !== null ? (v / firstVal) * 100 : null);
+      }
+    }
+
     datasets.push({
-      label: 'Brent (Pétrole brut estimé en €/L)',
-      data: brentEurLiter,
+      label: currentViewMode === 'base100' ? 'Brent (Indice 100)' : 'Brent (Pétrole brut estimé en €/L)',
+      data: brentDataToUse,
       borderColor: '#ff9800',
       backgroundColor: 'rgba(255, 152, 0, 0.1)',
       borderWidth: 3,
@@ -90,26 +99,32 @@ async function renderChart() {
       yAxisID: 'y'
     });
 
-    // Ajouter les datasets pour chaque marque
+    // Datasets Distributeurs
     allBrands.forEach(brand => {
-      const data = dates.map(date => {
+      let data = dates.map(date => {
         const dayData = gasPrices[date];
         if (dayData && dayData.brands && dayData.brands[brand]) {
-          return dayData.brands[brand][fuelType];
+          return dayData.brands[brand][currentFuelType];
         }
         return null;
       });
 
-      // On n'affiche que si on a des données pour cette marque
       if (data.some(val => val !== null)) {
+        if (currentViewMode === 'base100') {
+          const firstVal = data.find(v => v !== null);
+          if (firstVal) {
+            data = data.map(v => v !== null ? (v / firstVal) * 100 : null);
+          }
+        }
+
         datasets.push({
-          label: `${brand} (${fuelType === 'gazole_moy' ? 'Gazole' : 'SP95'})`,
+          label: `${brand} (${currentFuelType === 'gazole_moy' ? 'Gazole' : 'SP95'})`,
           data: data,
           borderColor: brandColors[brand] || '#000000',
           borderWidth: 2,
           tension: 0.1,
           spanGaps: true,
-          yAxisID: 'y1'
+          yAxisID: currentViewMode === 'absolute' ? 'y1' : 'y'
         });
       }
     });
@@ -122,6 +137,7 @@ async function renderChart() {
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         interaction: {
           mode: 'index',
           intersect: false,
@@ -133,34 +149,39 @@ async function renderChart() {
             position: 'left',
             title: {
               display: true,
-              text: 'Prix Brut (€/L)'
+              text: currentViewMode === 'base100' ? 'Indice (Base 100 au 1er Janvier)' : 'Prix Brut (€/L)'
             }
           },
           y1: {
             type: 'linear',
-            display: true,
+            display: currentViewMode === 'absolute',
             position: 'right',
             title: {
               display: true,
               text: 'Prix Pompe (€/L)'
             },
             grid: {
-              drawOnChartArea: false, // Ne dessine la grille que pour l'axe de gauche
-            },
-            // On peut aligner les échelles si on veut, mais les prix à la pompe incluent ~60% de taxes
-            // Il est donc normal qu'ils soient beaucoup plus élevés (~2.00€ vs ~0.55€ pour le brut)
+              drawOnChartArea: false,
+            }
           }
         },
         plugins: {
+          legend: {
+            position: 'bottom',
+            labels: {
+              boxWidth: 15,
+              padding: 10
+            }
+          },
           tooltip: {
             callbacks: {
               label: function(context) {
                 let label = context.dataset.label || '';
-                if (label) {
-                  label += ': ';
-                }
+                if (label) label += ': ';
                 if (context.parsed.y !== null) {
-                  label += context.parsed.y.toFixed(3) + ' €/L';
+                  label += currentViewMode === 'base100' 
+                    ? context.parsed.y.toFixed(2) + ' %'
+                    : context.parsed.y.toFixed(3) + ' €/L';
                 }
                 return label;
               }
@@ -171,15 +192,24 @@ async function renderChart() {
     });
   };
 
-  // Initialisation sur Gazole
-  updateChart('gazole_moy');
+  // Initialisation
+  updateChart();
 
-  // Gestion du sélecteur
+  // Gestion des sélecteurs
   const fuelSelector = document.getElementById('fuel-selector') as HTMLSelectElement;
+  const viewSelector = document.getElementById('view-selector') as HTMLSelectElement;
+
   if (fuelSelector) {
     fuelSelector.addEventListener('change', (e) => {
-      const value = (e.target as HTMLSelectElement).value as 'gazole_moy' | 'sp95_moy';
-      updateChart(value);
+      currentFuelType = (e.target as HTMLSelectElement).value as 'gazole_moy' | 'sp95_moy';
+      updateChart();
+    });
+  }
+  
+  if (viewSelector) {
+    viewSelector.addEventListener('change', (e) => {
+      currentViewMode = (e.target as HTMLSelectElement).value as 'absolute' | 'base100';
+      updateChart();
     });
   }
 }
