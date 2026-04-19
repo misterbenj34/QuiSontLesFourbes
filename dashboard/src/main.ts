@@ -89,7 +89,7 @@ async function renderChart() {
     }
 
     datasets.push({
-      label: currentViewMode === 'base100' ? 'Brent (Indice 100)' : 'Brent (Pétrole brut estimé en €/L)',
+      label: currentViewMode === 'base100' ? 'Prix du baril (Indice 100)' : 'Prix du baril',
       data: brentDataToUse,
       borderColor: '#ff9800',
       backgroundColor: 'rgba(255, 152, 0, 0.1)',
@@ -118,11 +118,13 @@ async function renderChart() {
         }
 
         datasets.push({
-          label: `${brand} (${currentFuelType === 'gazole_moy' ? 'Gazole' : 'SP95'})`,
+          label: brand,
           data: data,
           borderColor: brandColors[brand] || '#000000',
           borderWidth: 2,
-          tension: 0.1,
+          tension: 0.4,
+          pointRadius: 0,
+          pointHitRadius: 10,
           spanGaps: true,
           yAxisID: currentViewMode === 'absolute' ? 'y1' : 'y'
         });
@@ -141,6 +143,34 @@ async function renderChart() {
         interaction: {
           mode: 'index',
           intersect: false,
+        },
+        plugins: {
+          title: {
+            display: true,
+            text: `Évolution des prix - ${currentFuelType === 'gazole_moy' ? 'Gazole' : 'SP95'}`,
+            font: { size: 16 }
+          },
+          legend: {
+            position: 'bottom',
+            labels: {
+              boxWidth: 15,
+              padding: 10
+            }
+          },
+          tooltip: {
+            callbacks: {
+              label: function(context: any) {
+                let label = context.dataset.label || '';
+                if (label) label += ': ';
+                if (context.parsed.y !== null) {
+                  label += currentViewMode === 'base100' 
+                    ? context.parsed.y.toFixed(2) + ' %'
+                    : context.parsed.y.toFixed(3) + ' €/L';
+                }
+                return label;
+              }
+            }
+          }
         },
         scales: {
           y: {
@@ -162,29 +192,6 @@ async function renderChart() {
             },
             grid: {
               drawOnChartArea: false,
-            }
-          }
-        },
-        plugins: {
-          legend: {
-            position: 'bottom',
-            labels: {
-              boxWidth: 15,
-              padding: 10
-            }
-          },
-          tooltip: {
-            callbacks: {
-              label: function(context) {
-                let label = context.dataset.label || '';
-                if (label) label += ': ';
-                if (context.parsed.y !== null) {
-                  label += currentViewMode === 'base100' 
-                    ? context.parsed.y.toFixed(2) + ' %'
-                    : context.parsed.y.toFixed(3) + ' €/L';
-                }
-                return label;
-              }
             }
           }
         }
