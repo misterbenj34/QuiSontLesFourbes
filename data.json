@@ -1,0 +1,40 @@
+{
+  "2026-04-19": {
+    "Autre": {
+      "gazole_moy": 2.2,
+      "sp95_moy": 2.03,
+      "stations_count": 753,
+      "date": "2026-04-19T20:32:49.685075"
+    },
+    "Leclerc": {
+      "gazole_moy": 2.206,
+      "sp95_moy": 1.989,
+      "stations_count": 24,
+      "date": "2026-04-19T20:32:49.685105"
+    },
+    "Intermarche": {
+      "gazole_moy": 2.179,
+      "sp95_moy": null,
+      "stations_count": 1,
+      "date": "2026-04-19T20:32:49.685110"
+    },
+    "Carrefour": {
+      "gazole_moy": 2.176,
+      "sp95_moy": null,
+      "stations_count": 2,
+      "date": "2026-04-19T20:32:49.685113"
+    },
+    "Total": {
+      "gazole_moy": 2.195,
+      "sp95_moy": null,
+      "stations_count": 3,
+      "date": "2026-04-19T20:32:49.685116"
+    },
+    "Bp": {
+      "gazole_moy": 2.149,
+      "sp95_moy": 1.963,
+      "stations_count": 5,
+      "date": "2026-04-19T20:32:49.685119"
+    }
+  }
+}
