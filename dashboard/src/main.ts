@@ -32,8 +32,8 @@ const brandColors: Record<string, string> = {
 
 async function loadData() {
   const [gasRes, brentRes] = await Promise.all([
-    fetch('/gas_prices.json'),
-    fetch('/brent_prices.json')
+    fetch('./gas_prices.json'),
+    fetch('./brent_prices.json')
   ]);
   
   const gasPrices: Record<string, GasData> = await gasRes.json();
@@ -174,9 +174,14 @@ async function renderChart() {
   // Initialisation sur Gazole
   updateChart('gazole_moy');
 
-  // Gestion des boutons
-  document.getElementById('btn-gazole')?.addEventListener('click', () => updateChart('gazole_moy'));
-  document.getElementById('btn-sp95')?.addEventListener('click', () => updateChart('sp95_moy'));
+  // Gestion du sélecteur
+  const fuelSelector = document.getElementById('fuel-selector') as HTMLSelectElement;
+  if (fuelSelector) {
+    fuelSelector.addEventListener('change', (e) => {
+      const value = (e.target as HTMLSelectElement).value as 'gazole_moy' | 'sp95_moy';
+      updateChart(value);
+    });
+  }
 }
 
 renderChart();
