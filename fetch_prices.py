@@ -5,7 +5,7 @@ from datetime import datetime
 from collections import defaultdict
 
 BASE_URL = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records"
-DATA_FILE = "/home/openclaw/.openclaw/workspace/QuiSontLesFourbes/data.json"
+DATA_FILE = "/home/openclaw/.openclaw/workspace/QuiSontLesFourbes/gas_prices.json"
 
 def collect():
     stats = defaultdict(lambda: {"gazole": [], "sp95": []})

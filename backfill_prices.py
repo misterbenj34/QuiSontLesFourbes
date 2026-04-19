@@ -5,7 +5,7 @@ import json
 import os
 
 XML_FILE = "/home/openclaw/.openclaw/workspace/PrixCarburants_annuel_2026.xml"
-DATA_FILE = "/home/openclaw/.openclaw/workspace/QuiSontLesFourbes/data.json"
+DATA_FILE = "/home/openclaw/.openclaw/workspace/QuiSontLesFourbes/gas_prices.json"
 
 def process_history():
     print("Parsing XML... This may take a moment.")
