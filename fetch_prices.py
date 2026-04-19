@@ -55,9 +55,12 @@ def collect():
             
         offset += limit
         
-    summary = {}
+    summary = {
+        "region": "Île-de-France",
+        "brands": {}
+    }
     for dist, prices in stats.items():
-        summary[dist] = {
+        summary["brands"][dist] = {
             "gazole_moy": round(sum(prices["gazole"])/len(prices["gazole"]), 3) if prices["gazole"] else None,
             "sp95_moy": round(sum(prices["sp95"])/len(prices["sp95"]), 3) if prices["sp95"] else None,
             "stations_count": max(len(prices["gazole"]), len(prices["sp95"])),
@@ -76,7 +79,7 @@ def collect():
     with open(DATA_FILE, 'w') as f:
         json.dump(history, f, indent=2)
     
-    print(f"Collecte terminée. {sum(s['stations_count'] for s in summary.values())} stations analysées.")
+    print(f"Collecte terminée. {sum(s['stations_count'] for s in summary['brands'].values())} stations analysées.")
 
 if __name__ == "__main__":
     collect()
