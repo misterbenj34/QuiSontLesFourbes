@@ -67,6 +67,84 @@ async function loadData() {
   return { gasPrices, brentPrices };
 }
 
+function calculateVariation(data: (number|null)[], dates: string[], daysAgo: number): string {
+  if (data.length === 0) return '-';
+  const lastIndex = data.length - 1;
+  const lastVal = data[lastIndex];
+  if (lastVal === null) return '-';
+
+  const lastDate = new Date(dates[lastIndex]);
+  const targetDate = new Date(lastDate);
+  targetDate.setDate(targetDate.getDate() - daysAgo);
+
+  let closestIndex = -1;
+  let minDiff = Infinity;
+  for (let i = 0; i <= lastIndex; i++) {
+    if (data[i] === null) continue;
+    const d = new Date(dates[i]);
+    const diff = Math.abs(d.getTime() - targetDate.getTime());
+    if (diff < minDiff) {
+      minDiff = diff;
+      closestIndex = i;
+    }
+  }
+
+  if (closestIndex === -1 || closestIndex === lastIndex) return '-';
+  
+  const startVal = data[closestIndex];
+  if (startVal === null || startVal === 0) return '-';
+
+  const variation = ((lastVal - startVal) / startVal) * 100;
+  const sign = variation > 0 ? '+' : '';
+  const colorClass = variation > 0 ? 'val-up' : (variation < 0 ? 'val-down' : 'val-neutral');
+  return `<span class="${colorClass}">${sign}${variation.toFixed(2)}%</span>`;
+}
+
+function updateTable(dates: string[], brentData: (number|null)[], allBrands: Set<string>, gasPrices: Record<string, GasData>, currentFuelType: 'gazole_moy' | 'sp95_moy') {
+  const tbody = document.querySelector('#variation-table tbody');
+  const tableContainer = document.getElementById('table-container');
+  if (!tbody || !tableContainer) return;
+  
+  tableContainer.style.display = 'block';
+  tbody.innerHTML = '';
+
+  const createRow = (name: string, data: (number|null)[]) => {
+    const tr = document.createElement('tr');
+    const tdName = document.createElement('td');
+    tdName.textContent = name;
+    tdName.style.fontWeight = 'bold';
+    tr.appendChild(tdName);
+
+    const td7 = document.createElement('td');
+    td7.innerHTML = calculateVariation(data, dates, 7);
+    tr.appendChild(td7);
+
+    const td14 = document.createElement('td');
+    td14.innerHTML = calculateVariation(data, dates, 14);
+    tr.appendChild(td14);
+
+    const td30 = document.createElement('td');
+    td30.innerHTML = calculateVariation(data, dates, 30);
+    tr.appendChild(td30);
+
+    return tr;
+  };
+
+  tbody.appendChild(createRow('Prix du baril (Brent)', brentData));
+
+  // Sort brands alphabetically
+  Array.from(allBrands).sort().forEach(brand => {
+    const brandData = dates.map(date => {
+        const dayData = gasPrices[date];
+        if (dayData && dayData.brands && dayData.brands[brand]) {
+          return dayData.brands[brand][currentFuelType];
+        }
+        return null;
+    });
+    tbody.appendChild(createRow(brand, brandData));
+  });
+}
+
 async function renderChart() {
   const { gasPrices, brentPrices } = await loadData();
   
@@ -101,7 +179,7 @@ async function renderChart() {
   const ctx = document.getElementById('priceChart') as HTMLCanvasElement;
   let currentChart: Chart | null = null;
   let currentFuelType: 'gazole_moy' | 'sp95_moy' = 'gazole_moy';
-  let currentViewMode: 'absolute' | 'base100' = 'absolute';
+  let currentViewMode: 'absolute' | 'base100' = 'base100';
 
   const updateChart = () => {
     if (currentChart) {
@@ -123,9 +201,9 @@ async function renderChart() {
       label: currentViewMode === 'base100' ? 'Prix du baril (Indice 100)' : 'Prix du baril',
       data: brentDataToUse,
       borderColor: '#ff9800',
-      backgroundColor: 'rgba(255, 152, 0, 0.1)',
+      backgroundColor: '#ff9800',
       borderWidth: 3,
-      fill: true,
+      fill: false,
       tension: 0.2,
       yAxisID: 'y'
     });
@@ -152,6 +230,7 @@ async function renderChart() {
           label: brand,
           data: data,
           borderColor: getColorForBrand(brand),
+          backgroundColor: getColorForBrand(brand),
           borderWidth: 2,
           tension: 0.4,
           pointRadius: 0,
@@ -161,6 +240,8 @@ async function renderChart() {
         });
       }
     });
+
+    updateTable(dates, brentEurLiter, allBrands, gasPrices, currentFuelType);
 
     currentChart = new Chart(ctx, {
       type: 'line',

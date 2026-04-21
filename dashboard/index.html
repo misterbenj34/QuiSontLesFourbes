@@ -47,6 +47,31 @@
       button:hover {
         background-color: #0056b3;
       }
+      .table-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto 40px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        overflow-x: auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th, td {
+        border: 1px solid #dee2e6;
+        padding: 12px;
+        text-align: center;
+      }
+      th {
+        background-color: #f8f9fa;
+      }
+      .val-up { color: #dc3545; font-weight: bold; }
+      .val-down { color: #198754; font-weight: bold; }
+      .val-neutral { color: #6c757d; }
     </style>
   </head>
   <body>
@@ -62,13 +87,29 @@
 
       <label for="view-selector"><b>Affichage :</b> </label>
       <select id="view-selector" style="padding: 5px; font-size: 16px;">
-        <option value="absolute" selected>Prix réels (€/L)</option>
-        <option value="base100">Évolution (Base 100)</option>
+        <option value="absolute">Prix réels (€/L)</option>
+        <option value="base100" selected>Évolution (Base 100)</option>
       </select>
     </div>
 
     <div class="chart-container" style="position: relative; height: 65vh; min-height: 450px;">
       <canvas id="priceChart"></canvas>
+    </div>
+
+    <div class="table-container" id="table-container">
+      <h2 style="text-align: center; font-size: 1.2em; margin-top: 0;">Variations des prix</h2>
+      <table id="variation-table">
+        <thead>
+          <tr>
+            <th>Distributeur / Index</th>
+            <th>7 derniers jours</th>
+            <th>14 derniers jours</th>
+            <th>30 derniers jours</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
     </div>
 
     <div id="footer-info" style="text-align: center; margin-top: 10px; font-size: 0.9em; color: #6c757d;">
