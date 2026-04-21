@@ -6,10 +6,20 @@ from collections import defaultdict
 
 BASE_URL = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records"
 DATA_FILE = "/home/openclaw/.openclaw/workspace/QuiSontLesFourbes/gas_prices.json"
+MAPPING_URL = "https://raw.githubusercontent.com/Aohzan/hass-prixcarburant/master/custom_components/prix_carburant/stations_name.json"
 
 def collect():
     stats = defaultdict(lambda: {"gazole": [], "sp95": []})
     
+    # Récupération du mapping communautaire
+    print("Récupération du dictionnaire des marques...")
+    try:
+        mapping_req = requests.get(MAPPING_URL)
+        stations_mapping = mapping_req.json()
+    except Exception as e:
+        print(f"Erreur lors de la récupération du mapping: {e}")
+        stations_mapping = {}
+        
     offset = 0
     limit = 100
     
@@ -32,23 +42,27 @@ def collect():
             break
             
         for record in results:
-            name = record.get("nom_du_point_de_vente") or ""
-            if not name:
-                name = record.get("adresse") or ""
-            name = name.lower()
-                
+            station_id = str(record.get("id"))
             gazole = record.get("gazole_prix")
             sp95 = record.get("sp95_prix")
             
             dist = "Autre"
-            # Marques principales
-            brands = ["total", "carrefour", "leclerc", "auchan", "intermarche", "intermarché", "shell", "bp", "esso", "systeme u", "système u", "casino", "agip", "avia"]
-            for b in brands:
-                if b in name:
-                    dist = b.capitalize().replace("é", "e").replace("è", "e")
-                    if dist == "Intermarche": dist = "Intermarche" # Normalisation
-                    if dist == "Systeme u": dist = "Systeme U"
-                    break
+            
+            # Priorité 1 : Le mapping GitHub
+            if station_id in stations_mapping:
+                dist = stations_mapping[station_id].get("brand") or "Autre"
+                
+            # Priorité 2 : Fallback sur l'adresse (ancienne méthode) si toujours "Autre"
+            if dist == "Autre":
+                name = record.get("adresse") or ""
+                name = name.lower()
+                brands = ["total", "carrefour", "leclerc", "auchan", "intermarche", "intermarché", "shell", "bp", "esso", "systeme u", "système u", "casino", "agip", "avia"]
+                for b in brands:
+                    if b in name:
+                        dist = b.capitalize().replace("é", "e").replace("è", "e")
+                        if dist == "Intermarche": dist = "Intermarche" # Normalisation
+                        if dist == "Systeme u": dist = "Systeme U"
+                        break
             
             if gazole is not None: stats[dist]["gazole"].append(gazole)
             if sp95 is not None: stats[dist]["sp95"].append(sp95)
