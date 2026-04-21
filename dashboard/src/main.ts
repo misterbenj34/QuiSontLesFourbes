@@ -73,6 +73,12 @@ async function renderChart() {
   // Extraire les dates communes et trier
   const dates = Array.from(new Set([...Object.keys(gasPrices), ...Object.keys(brentPrices)])).sort();
   
+  // Mise à jour de la date d'affichage
+  const lastUpdateSpan = document.getElementById('last-update');
+  if (lastUpdateSpan && dates.length > 0) {
+    lastUpdateSpan.textContent = dates[dates.length - 1];
+  }
+  
   // Taux de conversion approximatif pour l'exemple (EUR/USD)
   // 1 baril = 158.98 litres
   const eurUsdRate = 0.94; // 1 USD = 0.94 EUR environ en avril 2026
