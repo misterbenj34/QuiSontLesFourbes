@@ -18,27 +18,17 @@ interface BrentData {
 
 // Couleurs associées aux marques pour plus de lisibilité
 const brandColors: Record<string, string> = {
-  'Total': '#ff0000',
-  'TotalEnergies': '#ff0000',
-  'TotalEnergies Access': '#ff4d4d',
-  'Leclerc': '#0055a4',
-  'Carrefour': '#00387b',
-  'Carrefour Market': '#005ebd',
-  'Intermarche': '#000000',
-  'Intermarché': '#000000',
-  'Intermarché Contact': '#333333',
-  'Auchan': '#e30613',
-  'Système U': '#005eb8',
-  'Systeme U': '#005eb8',
-  'BP': '#009900',
-  'Bp': '#009900',
-  'BP Express': '#33cc33',
-  'Esso': '#d32f2f',
-  'Esso Express': '#e57373',
-  'Shell': '#ffeb3b',
-  'Avia': '#d32f2f',
-  'Agip': '#ffcc00',
-  'Autre': '#9e9e9e'
+  'Total': '#ff0000',          // Rouge pur
+  'Esso': '#ff6b6b',           // Rouge clair / Corail
+  'Auchan': '#a30000',         // Rouge très sombre
+  'Avia': '#ff007f',           // Rouge rosé / Rose vif
+  'Leclerc': '#00a8ff',        // Bleu ciel / clair
+  'Carrefour': '#002060',      // Bleu nuit / très foncé
+  'Système U': '#00bcd4',      // Bleu cyan / turquoise
+  'Intermarché': '#000000',    // Noir
+  'BP': '#009900',             // Vert
+  'Shell': '#ffc107',          // Jaune moutarde
+  'Autre': '#9e9e9e'           // Gris
 };
 
 function getColorForBrand(brand: string): string {
