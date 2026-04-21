@@ -60,9 +60,23 @@ def collect():
                 for b in brands:
                     if b in name:
                         dist = b.capitalize().replace("é", "e").replace("è", "e")
-                        if dist == "Intermarche": dist = "Intermarche" # Normalisation
-                        if dist == "Systeme u": dist = "Systeme U"
                         break
+                        
+            # Normalisation et regroupement
+            if "Total" in dist or dist in ["Elf", "Elan"]:
+                dist = "Total"
+            elif "Intermarch" in dist or dist == "Intermarche":
+                dist = "Intermarché"
+            elif "Carrefour" in dist:
+                dist = "Carrefour"
+            elif "Esso" in dist:
+                dist = "Esso"
+            elif dist.upper() in ["BP", "BP EXPRESS", "BP"]:
+                dist = "BP"
+            elif dist in ["Systeme U", "Système U"]:
+                dist = "Système U"
+            elif dist in ["Costco Wholesale", "Bi1", "AUTOGRILL", "Netto", "Oil France", "G20", "Simply Market", "Atac", "Monoprix", "Indépendant sans enseigne", "Agip", "Casino"]:
+                dist = "Autre"
             
             if gazole is not None: stats[dist]["gazole"].append(gazole)
             if sp95 is not None: stats[dist]["sp95"].append(sp95)
