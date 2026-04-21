@@ -25,7 +25,7 @@ const brandColors: Record<string, string> = {
   'Leclerc': '#00a8ff',        // Bleu ciel / clair
   'Carrefour': '#002060',      // Bleu nuit / très foncé
   'Système U': '#00bcd4',      // Bleu cyan / turquoise
-  'Intermarché': '#000000',    // Noir
+  'Intermarché': '#ff9800',    // Orange
   'BP': '#009900',             // Vert
   'Shell': '#ffc107',          // Jaune moutarde
   'Autre': '#9e9e9e'           // Gris
@@ -199,8 +199,8 @@ async function renderChart() {
     datasets.push({
       label: currentViewMode === 'base100' ? 'Prix du baril (Indice 100)' : 'Prix du baril',
       data: brentDataToUse,
-      borderColor: '#ff9800',
-      backgroundColor: '#ff9800',
+      borderColor: '#000000',
+      backgroundColor: '#000000',
       borderWidth: 3,
       fill: false,
       tension: 0.2,
