@@ -27,9 +27,9 @@
         "date": "2026-01-01"
       },
       "Autre": {
-        "gazole_moy": 1.711,
-        "sp95_moy": 1.842,
-        "stations_count": 36,
+        "gazole_moy": 1.706,
+        "sp95_moy": 1.803,
+        "stations_count": 35,
         "date": "2026-01-01"
       },
       "Carrefour": {
@@ -92,9 +92,9 @@
         "date": "2026-01-02"
       },
       "Autre": {
-        "gazole_moy": 1.667,
-        "sp95_moy": 1.727,
-        "stations_count": 45,
+        "gazole_moy": 1.662,
+        "sp95_moy": 1.698,
+        "stations_count": 44,
         "date": "2026-01-02"
       },
       "Intermarch\u00e9": {
@@ -157,9 +157,9 @@
         "date": "2026-01-03"
       },
       "Autre": {
-        "gazole_moy": 1.696,
-        "sp95_moy": 1.829,
-        "stations_count": 28,
+        "gazole_moy": 1.689,
+        "sp95_moy": 1.699,
+        "stations_count": 27,
         "date": "2026-01-03"
       },
       "Leclerc": {
@@ -216,9 +216,9 @@
         "date": "2026-01-04"
       },
       "Autre": {
-        "gazole_moy": 1.707,
-        "sp95_moy": 1.959,
-        "stations_count": 18,
+        "gazole_moy": 1.697,
+        "sp95_moy": null,
+        "stations_count": 17,
         "date": "2026-01-04"
       },
       "Leclerc": {
@@ -275,9 +275,9 @@
         "date": "2026-01-05"
       },
       "Autre": {
-        "gazole_moy": 1.67,
-        "sp95_moy": 1.771,
-        "stations_count": 44,
+        "gazole_moy": 1.666,
+        "sp95_moy": 1.708,
+        "stations_count": 43,
         "date": "2026-01-05"
       },
       "Leclerc": {
@@ -352,9 +352,9 @@
         "date": "2026-01-06"
       },
       "Autre": {
-        "gazole_moy": 1.706,
-        "sp95_moy": 1.775,
-        "stations_count": 41,
+        "gazole_moy": 1.702,
+        "sp95_moy": 1.714,
+        "stations_count": 40,
         "date": "2026-01-06"
       },
       "Leclerc": {
@@ -411,9 +411,9 @@
         "date": "2026-01-07"
       },
       "Autre": {
-        "gazole_moy": 1.69,
-        "sp95_moy": 1.847,
-        "stations_count": 33,
+        "gazole_moy": 1.684,
+        "sp95_moy": 1.734,
+        "stations_count": 32,
         "date": "2026-01-07"
       },
       "Carrefour": {
@@ -470,9 +470,9 @@
         "date": "2026-01-08"
       },
       "Autre": {
-        "gazole_moy": 1.702,
-        "sp95_moy": 1.808,
-        "stations_count": 40,
+        "gazole_moy": 1.698,
+        "sp95_moy": 1.733,
+        "stations_count": 39,
         "date": "2026-01-08"
       },
       "Carrefour": {
@@ -547,9 +547,9 @@
         "date": "2026-01-09"
       },
       "Autre": {
-        "gazole_moy": 1.697,
-        "sp95_moy": 1.769,
-        "stations_count": 45,
+        "gazole_moy": 1.693,
+        "sp95_moy": 1.722,
+        "stations_count": 44,
         "date": "2026-01-09"
       },
       "Carrefour": {
@@ -612,9 +612,9 @@
         "date": "2026-01-10"
       },
       "Autre": {
-        "gazole_moy": 1.702,
-        "sp95_moy": 1.959,
-        "stations_count": 26,
+        "gazole_moy": 1.695,
+        "sp95_moy": null,
+        "stations_count": 25,
         "date": "2026-01-10"
       },
       "Carrefour": {
@@ -665,9 +665,9 @@
         "date": "2026-01-11"
       },
       "Autre": {
-        "gazole_moy": 1.751,
-        "sp95_moy": 1.959,
-        "stations_count": 11,
+        "gazole_moy": 1.738,
+        "sp95_moy": null,
+        "stations_count": 10,
         "date": "2026-01-11"
       },
       "Leclerc": {
@@ -718,9 +718,9 @@
         "date": "2026-01-12"
       },
       "Autre": {
-        "gazole_moy": 1.702,
-        "sp95_moy": 1.805,
-        "stations_count": 50,
+        "gazole_moy": 1.699,
+        "sp95_moy": 1.728,
+        "stations_count": 49,
         "date": "2026-01-12"
       },
       "Carrefour": {
@@ -795,9 +795,9 @@
         "date": "2026-01-13"
       },
       "Autre": {
-        "gazole_moy": 1.712,
-        "sp95_moy": 1.8,
-        "stations_count": 49,
+        "gazole_moy": 1.709,
+        "sp95_moy": 1.747,
+        "stations_count": 48,
         "date": "2026-01-13"
       },
       "Intermarch\u00e9": {
@@ -937,9 +937,9 @@
         "date": "2026-01-15"
       },
       "Autre": {
-        "gazole_moy": 1.716,
-        "sp95_moy": 1.758,
-        "stations_count": 51,
+        "gazole_moy": 1.712,
+        "sp95_moy": 1.728,
+        "stations_count": 50,
         "date": "2026-01-15"
       },
       "Intermarch\u00e9": {
@@ -1002,9 +1002,9 @@
         "date": "2026-01-16"
       },
       "Autre": {
-        "gazole_moy": 1.712,
-        "sp95_moy": 1.769,
-        "stations_count": 43,
+        "gazole_moy": 1.708,
+        "sp95_moy": 1.719,
+        "stations_count": 42,
         "date": "2026-01-16"
       },
       "Carrefour": {
@@ -1073,9 +1073,9 @@
         "date": "2026-01-17"
       },
       "Autre": {
-        "gazole_moy": 1.742,
-        "sp95_moy": 1.969,
-        "stations_count": 32,
+        "gazole_moy": 1.737,
+        "sp95_moy": null,
+        "stations_count": 31,
         "date": "2026-01-17"
       },
       "Leclerc": {
@@ -1132,9 +1132,9 @@
         "date": "2026-01-18"
       },
       "Autre": {
-        "gazole_moy": 1.737,
-        "sp95_moy": 1.969,
-        "stations_count": 18,
+        "gazole_moy": 1.729,
+        "sp95_moy": null,
+        "stations_count": 17,
         "date": "2026-01-18"
       },
       "Leclerc": {
@@ -1191,9 +1191,9 @@
         "date": "2026-01-19"
       },
       "Autre": {
-        "gazole_moy": 1.727,
-        "sp95_moy": 1.812,
-        "stations_count": 44,
+        "gazole_moy": 1.723,
+        "sp95_moy": 1.759,
+        "stations_count": 43,
         "date": "2026-01-19"
       },
       "Carrefour": {
@@ -1274,9 +1274,9 @@
         "date": "2026-01-20"
       },
       "Autre": {
-        "gazole_moy": 1.719,
-        "sp95_moy": 1.78,
-        "stations_count": 50,
+        "gazole_moy": 1.716,
+        "sp95_moy": 1.717,
+        "stations_count": 49,
         "date": "2026-01-20"
       },
       "Intermarch\u00e9": {
@@ -1333,9 +1333,9 @@
         "date": "2026-01-21"
       },
       "Autre": {
-        "gazole_moy": 1.726,
-        "sp95_moy": 1.747,
-        "stations_count": 44,
+        "gazole_moy": 1.723,
+        "sp95_moy": 1.71,
+        "stations_count": 43,
         "date": "2026-01-21"
       },
       "Carrefour": {
@@ -1398,9 +1398,9 @@
         "date": "2026-01-22"
       },
       "Autre": {
-        "gazole_moy": 1.736,
-        "sp95_moy": 1.8,
-        "stations_count": 48,
+        "gazole_moy": 1.729,
+        "sp95_moy": 1.718,
+        "stations_count": 46,
         "date": "2026-01-22"
       },
       "Carrefour": {
@@ -1475,9 +1475,9 @@
         "date": "2026-01-23"
       },
       "Autre": {
-        "gazole_moy": 1.725,
-        "sp95_moy": 1.773,
-        "stations_count": 50,
+        "gazole_moy": 1.721,
+        "sp95_moy": 1.737,
+        "stations_count": 49,
         "date": "2026-01-23"
       },
       "Carrefour": {
@@ -1540,9 +1540,9 @@
         "date": "2026-01-24"
       },
       "Autre": {
-        "gazole_moy": 1.754,
-        "sp95_moy": 1.824,
-        "stations_count": 28,
+        "gazole_moy": 1.747,
+        "sp95_moy": 1.699,
+        "stations_count": 27,
         "date": "2026-01-24"
       },
       "Carrefour": {
@@ -1605,9 +1605,9 @@
         "date": "2026-01-25"
       },
       "Autre": {
-        "gazole_moy": 1.752,
-        "sp95_moy": 1.949,
-        "stations_count": 18,
+        "gazole_moy": 1.742,
+        "sp95_moy": null,
+        "stations_count": 17,
         "date": "2026-01-25"
       },
       "Leclerc": {
@@ -1652,9 +1652,9 @@
         "date": "2026-01-26"
       },
       "Autre": {
-        "gazole_moy": 1.724,
-        "sp95_moy": 1.77,
-        "stations_count": 37,
+        "gazole_moy": 1.718,
+        "sp95_moy": 1.71,
+        "stations_count": 36,
         "date": "2026-01-26"
       },
       "Carrefour": {
@@ -1729,9 +1729,9 @@
         "date": "2026-01-27"
       },
       "Autre": {
-        "gazole_moy": 1.751,
-        "sp95_moy": 1.776,
-        "stations_count": 45,
+        "gazole_moy": 1.747,
+        "sp95_moy": 1.719,
+        "stations_count": 44,
         "date": "2026-01-27"
       },
       "Intermarch\u00e9": {
@@ -1794,9 +1794,9 @@
         "date": "2026-01-28"
       },
       "Autre": {
-        "gazole_moy": 1.749,
-        "sp95_moy": 1.776,
-        "stations_count": 36,
+        "gazole_moy": 1.744,
+        "sp95_moy": 1.718,
+        "stations_count": 35,
         "date": "2026-01-28"
       },
       "Intermarch\u00e9": {
@@ -1859,9 +1859,9 @@
         "date": "2026-01-29"
       },
       "Autre": {
-        "gazole_moy": 1.751,
-        "sp95_moy": 1.778,
-        "stations_count": 41,
+        "gazole_moy": 1.747,
+        "sp95_moy": 1.721,
+        "stations_count": 40,
         "date": "2026-01-29"
       },
       "Carrefour": {
@@ -1924,9 +1924,9 @@
         "date": "2026-01-30"
       },
       "Autre": {
-        "gazole_moy": 1.733,
-        "sp95_moy": 1.789,
-        "stations_count": 50,
+        "gazole_moy": 1.729,
+        "sp95_moy": 1.735,
+        "stations_count": 49,
         "date": "2026-01-30"
       },
       "Intermarch\u00e9": {
@@ -2001,9 +2001,9 @@
         "date": "2026-01-31"
       },
       "Autre": {
-        "gazole_moy": 1.766,
-        "sp95_moy": 1.969,
-        "stations_count": 30,
+        "gazole_moy": 1.76,
+        "sp95_moy": null,
+        "stations_count": 29,
         "date": "2026-01-31"
       },
       "Carrefour": {
@@ -2066,9 +2066,9 @@
         "date": "2026-02-01"
       },
       "Autre": {
-        "gazole_moy": 1.759,
-        "sp95_moy": 1.969,
-        "stations_count": 19,
+        "gazole_moy": 1.749,
+        "sp95_moy": null,
+        "stations_count": 18,
         "date": "2026-02-01"
       },
       "Leclerc": {
@@ -2113,9 +2113,9 @@
         "date": "2026-02-02"
       },
       "Autre": {
-        "gazole_moy": 1.747,
-        "sp95_moy": 1.77,
-        "stations_count": 46,
+        "gazole_moy": 1.743,
+        "sp95_moy": 1.742,
+        "stations_count": 45,
         "date": "2026-02-02"
       },
       "Carrefour": {
@@ -2190,9 +2190,9 @@
         "date": "2026-02-03"
       },
       "Autre": {
-        "gazole_moy": 1.746,
-        "sp95_moy": 1.76,
-        "stations_count": 41,
+        "gazole_moy": 1.741,
+        "sp95_moy": 1.725,
+        "stations_count": 40,
         "date": "2026-02-03"
       },
       "Carrefour": {
@@ -2255,9 +2255,9 @@
         "date": "2026-02-04"
       },
       "Autre": {
-        "gazole_moy": 1.744,
-        "sp95_moy": 1.778,
-        "stations_count": 44,
+        "gazole_moy": 1.74,
+        "sp95_moy": 1.715,
+        "stations_count": 43,
         "date": "2026-02-04"
       },
       "Carrefour": {
@@ -2332,9 +2332,9 @@
         "date": "2026-02-05"
       },
       "Autre": {
-        "gazole_moy": 1.747,
-        "sp95_moy": 1.773,
-        "stations_count": 39,
+        "gazole_moy": 1.741,
+        "sp95_moy": 1.724,
+        "stations_count": 38,
         "date": "2026-02-05"
       },
       "Carrefour": {
@@ -2397,9 +2397,9 @@
         "date": "2026-02-06"
       },
       "Autre": {
-        "gazole_moy": 1.755,
-        "sp95_moy": 1.822,
-        "stations_count": 44,
+        "gazole_moy": 1.75,
+        "sp95_moy": 1.748,
+        "stations_count": 43,
         "date": "2026-02-06"
       },
       "Carrefour": {
@@ -2474,9 +2474,9 @@
         "date": "2026-02-07"
       },
       "Autre": {
-        "gazole_moy": 1.758,
-        "sp95_moy": 1.876,
-        "stations_count": 34,
+        "gazole_moy": 1.752,
+        "sp95_moy": 1.82,
+        "stations_count": 33,
         "date": "2026-02-07"
       },
       "Carrefour": {
@@ -2539,9 +2539,9 @@
         "date": "2026-02-08"
       },
       "Autre": {
-        "gazole_moy": 1.761,
-        "sp95_moy": 1.989,
-        "stations_count": 19,
+        "gazole_moy": 1.751,
+        "sp95_moy": null,
+        "stations_count": 18,
         "date": "2026-02-08"
       },
       "Leclerc": {
@@ -2586,9 +2586,9 @@
         "date": "2026-02-09"
       },
       "Autre": {
-        "gazole_moy": 1.745,
-        "sp95_moy": 1.775,
-        "stations_count": 35,
+        "gazole_moy": 1.739,
+        "sp95_moy": 1.732,
+        "stations_count": 34,
         "date": "2026-02-09"
       },
       "Carrefour": {
@@ -2657,9 +2657,9 @@
         "date": "2026-02-10"
       },
       "Autre": {
-        "gazole_moy": 1.746,
-        "sp95_moy": 1.794,
-        "stations_count": 49,
+        "gazole_moy": 1.741,
+        "sp95_moy": 1.745,
+        "stations_count": 48,
         "date": "2026-02-10"
       },
       "Carrefour": {
@@ -2728,9 +2728,9 @@
         "date": "2026-02-11"
       },
       "Autre": {
-        "gazole_moy": 1.728,
-        "sp95_moy": 1.782,
-        "stations_count": 38,
+        "gazole_moy": 1.722,
+        "sp95_moy": 1.731,
+        "stations_count": 37,
         "date": "2026-02-11"
       },
       "Intermarch\u00e9": {
@@ -2805,9 +2805,9 @@
         "date": "2026-02-12"
       },
       "Autre": {
-        "gazole_moy": 1.75,
-        "sp95_moy": 1.769,
-        "stations_count": 41,
+        "gazole_moy": 1.745,
+        "sp95_moy": 1.714,
+        "stations_count": 40,
         "date": "2026-02-12"
       },
       "Intermarch\u00e9": {
@@ -2882,9 +2882,9 @@
         "date": "2026-02-13"
       },
       "Autre": {
-        "gazole_moy": 1.74,
-        "sp95_moy": 1.776,
-        "stations_count": 44,
+        "gazole_moy": 1.735,
+        "sp95_moy": 1.733,
+        "stations_count": 43,
         "date": "2026-02-13"
       },
       "Intermarch\u00e9": {
@@ -2941,9 +2941,9 @@
         "date": "2026-02-14"
       },
       "Autre": {
-        "gazole_moy": 1.76,
-        "sp95_moy": 1.989,
-        "stations_count": 30,
+        "gazole_moy": 1.753,
+        "sp95_moy": null,
+        "stations_count": 29,
         "date": "2026-02-14"
       },
       "Carrefour": {
@@ -3000,9 +3000,9 @@
         "date": "2026-02-15"
       },
       "Autre": {
-        "gazole_moy": 1.794,
-        "sp95_moy": 1.989,
-        "stations_count": 12,
+        "gazole_moy": 1.78,
+        "sp95_moy": null,
+        "stations_count": 11,
         "date": "2026-02-15"
       },
       "Leclerc": {
@@ -3041,9 +3041,9 @@
         "date": "2026-02-16"
       },
       "Autre": {
-        "gazole_moy": 1.721,
-        "sp95_moy": 1.783,
-        "stations_count": 47,
+        "gazole_moy": 1.716,
+        "sp95_moy": 1.742,
+        "stations_count": 46,
         "date": "2026-02-16"
       },
       "Carrefour": {
@@ -3112,9 +3112,9 @@
         "date": "2026-02-17"
       },
       "Autre": {
-        "gazole_moy": 1.737,
-        "sp95_moy": 1.802,
-        "stations_count": 40,
+        "gazole_moy": 1.732,
+        "sp95_moy": 1.756,
+        "stations_count": 39,
         "date": "2026-02-17"
       },
       "Intermarch\u00e9": {
@@ -3189,9 +3189,9 @@
         "date": "2026-02-18"
       },
       "Autre": {
-        "gazole_moy": 1.722,
-        "sp95_moy": 1.805,
-        "stations_count": 36,
+        "gazole_moy": 1.716,
+        "sp95_moy": 1.759,
+        "stations_count": 35,
         "date": "2026-02-18"
       },
       "Intermarch\u00e9": {
@@ -3248,9 +3248,9 @@
         "date": "2026-02-19"
       },
       "Autre": {
-        "gazole_moy": 1.75,
-        "sp95_moy": 1.816,
-        "stations_count": 41,
+        "gazole_moy": 1.745,
+        "sp95_moy": 1.729,
+        "stations_count": 40,
         "date": "2026-02-19"
       },
       "Carrefour": {
@@ -3325,9 +3325,9 @@
         "date": "2026-02-20"
       },
       "Autre": {
-        "gazole_moy": 1.718,
-        "sp95_moy": 1.737,
-        "stations_count": 60,
+        "gazole_moy": 1.714,
+        "sp95_moy": 1.695,
+        "stations_count": 59,
         "date": "2026-02-20"
       },
       "Intermarch\u00e9": {
@@ -3390,9 +3390,9 @@
         "date": "2026-02-21"
       },
       "Autre": {
-        "gazole_moy": 1.749,
-        "sp95_moy": 1.825,
-        "stations_count": 36,
+        "gazole_moy": 1.742,
+        "sp95_moy": 1.744,
+        "stations_count": 35,
         "date": "2026-02-21"
       },
       "Intermarch\u00e9": {
@@ -3455,9 +3455,9 @@
         "date": "2026-02-22"
       },
       "Autre": {
-        "gazole_moy": 1.773,
-        "sp95_moy": 1.989,
-        "stations_count": 20,
+        "gazole_moy": 1.763,
+        "sp95_moy": null,
+        "stations_count": 19,
         "date": "2026-02-22"
       },
       "Leclerc": {
@@ -3520,9 +3520,9 @@
         "date": "2026-02-23"
       },
       "Autre": {
-        "gazole_moy": 1.755,
-        "sp95_moy": 1.785,
-        "stations_count": 44,
+        "gazole_moy": 1.75,
+        "sp95_moy": 1.76,
+        "stations_count": 43,
         "date": "2026-02-23"
       },
       "Carrefour": {
@@ -3603,9 +3603,9 @@
         "date": "2026-02-24"
       },
       "Autre": {
-        "gazole_moy": 1.762,
-        "sp95_moy": 1.79,
-        "stations_count": 55,
+        "gazole_moy": 1.758,
+        "sp95_moy": 1.75,
+        "stations_count": 54,
         "date": "2026-02-24"
       },
       "Leclerc": {
@@ -3662,9 +3662,9 @@
         "date": "2026-02-25"
       },
       "Autre": {
-        "gazole_moy": 1.777,
-        "sp95_moy": 1.775,
-        "stations_count": 48,
+        "gazole_moy": 1.773,
+        "sp95_moy": 1.747,
+        "stations_count": 47,
         "date": "2026-02-25"
       },
       "Intermarch\u00e9": {
@@ -3733,9 +3733,9 @@
         "date": "2026-02-26"
       },
       "Autre": {
-        "gazole_moy": 1.785,
-        "sp95_moy": 1.817,
-        "stations_count": 41,
+        "gazole_moy": 1.78,
+        "sp95_moy": 1.756,
+        "stations_count": 40,
         "date": "2026-02-26"
       },
       "Carrefour": {
@@ -3804,9 +3804,9 @@
         "date": "2026-02-27"
       },
       "Autre": {
-        "gazole_moy": 1.784,
-        "sp95_moy": 1.81,
-        "stations_count": 48,
+        "gazole_moy": 1.78,
+        "sp95_moy": 1.762,
+        "stations_count": 47,
         "date": "2026-02-27"
       },
       "Carrefour": {
@@ -3887,9 +3887,9 @@
         "date": "2026-02-28"
       },
       "Autre": {
-        "gazole_moy": 1.803,
-        "sp95_moy": 1.847,
-        "stations_count": 27,
+        "gazole_moy": 1.797,
+        "sp95_moy": 1.796,
+        "stations_count": 26,
         "date": "2026-02-28"
       },
       "Carrefour": {
@@ -3940,9 +3940,9 @@
         "date": "2026-03-01"
       },
       "Autre": {
-        "gazole_moy": 1.809,
-        "sp95_moy": 1.999,
-        "stations_count": 20,
+        "gazole_moy": 1.8,
+        "sp95_moy": null,
+        "stations_count": 19,
         "date": "2026-03-01"
       },
       "Leclerc": {
@@ -3999,9 +3999,9 @@
         "date": "2026-03-02"
       },
       "Autre": {
-        "gazole_moy": 1.794,
-        "sp95_moy": 1.799,
-        "stations_count": 65,
+        "gazole_moy": 1.791,
+        "sp95_moy": 1.766,
+        "stations_count": 64,
         "date": "2026-03-02"
       },
       "Carrefour": {
@@ -4088,9 +4088,9 @@
         "date": "2026-03-03"
       },
       "Autre": {
-        "gazole_moy": 1.871,
-        "sp95_moy": 1.853,
-        "stations_count": 95,
+        "gazole_moy": 1.87,
+        "sp95_moy": 1.837,
+        "stations_count": 93,
         "date": "2026-03-03"
       },
       "Intermarch\u00e9": {
@@ -4147,9 +4147,9 @@
         "date": "2026-03-04"
       },
       "Autre": {
-        "gazole_moy": 1.992,
-        "sp95_moy": 1.876,
-        "stations_count": 77,
+        "gazole_moy": 1.989,
+        "sp95_moy": 1.85,
+        "stations_count": 75,
         "date": "2026-03-04"
       },
       "Shell": {
@@ -4218,9 +4218,9 @@
         "date": "2026-03-05"
       },
       "Autre": {
-        "gazole_moy": 1.984,
-        "sp95_moy": 1.881,
-        "stations_count": 73,
+        "gazole_moy": 1.981,
+        "sp95_moy": 1.857,
+        "stations_count": 72,
         "date": "2026-03-05"
       },
       "Carrefour": {
@@ -4295,9 +4295,9 @@
         "date": "2026-03-06"
       },
       "Autre": {
-        "gazole_moy": 2.043,
-        "sp95_moy": 1.893,
-        "stations_count": 79,
+        "gazole_moy": 2.044,
+        "sp95_moy": 1.872,
+        "stations_count": 77,
         "date": "2026-03-06"
       },
       "Carrefour": {
@@ -4366,9 +4366,9 @@
         "date": "2026-03-07"
       },
       "Autre": {
-        "gazole_moy": 2.044,
-        "sp95_moy": 1.959,
-        "stations_count": 42,
+        "gazole_moy": 2.039,
+        "sp95_moy": 1.883,
+        "stations_count": 40,
         "date": "2026-03-07"
       },
       "Leclerc": {
@@ -4425,9 +4425,9 @@
         "date": "2026-03-08"
       },
       "Autre": {
-        "gazole_moy": 2.049,
-        "sp95_moy": 2.099,
-        "stations_count": 20,
+        "gazole_moy": 2.038,
+        "sp95_moy": null,
+        "stations_count": 19,
         "date": "2026-03-08"
       },
       "Leclerc": {
@@ -4484,9 +4484,9 @@
         "date": "2026-03-09"
       },
       "Autre": {
-        "gazole_moy": 2.094,
-        "sp95_moy": 1.897,
-        "stations_count": 79,
+        "gazole_moy": 2.092,
+        "sp95_moy": 1.872,
+        "stations_count": 78,
         "date": "2026-03-09"
       },
       "Carrefour": {
@@ -4561,9 +4561,9 @@
         "date": "2026-03-10"
       },
       "Autre": {
-        "gazole_moy": 2.107,
-        "sp95_moy": 1.968,
-        "stations_count": 69,
+        "gazole_moy": 2.106,
+        "sp95_moy": 1.934,
+        "stations_count": 67,
         "date": "2026-03-10"
       },
       "Carrefour": {
@@ -4614,9 +4614,9 @@
         "date": "2026-03-11"
       },
       "Autre": {
-        "gazole_moy": 2.108,
-        "sp95_moy": 1.994,
-        "stations_count": 57,
+        "gazole_moy": 2.107,
+        "sp95_moy": 1.949,
+        "stations_count": 53,
         "date": "2026-03-11"
       },
       "Carrefour": {
@@ -4697,9 +4697,9 @@
         "date": "2026-03-12"
       },
       "Autre": {
-        "gazole_moy": 2.103,
-        "sp95_moy": 1.938,
-        "stations_count": 56,
+        "gazole_moy": 2.1,
+        "sp95_moy": 1.918,
+        "stations_count": 55,
         "date": "2026-03-12"
       },
       "Carrefour": {
@@ -4768,9 +4768,9 @@
         "date": "2026-03-13"
       },
       "Autre": {
-        "gazole_moy": 2.111,
-        "sp95_moy": 1.961,
-        "stations_count": 82,
+        "gazole_moy": 2.109,
+        "sp95_moy": 1.934,
+        "stations_count": 81,
         "date": "2026-03-13"
       },
       "Carrefour": {
@@ -4833,9 +4833,9 @@
         "date": "2026-03-14"
       },
       "Autre": {
-        "gazole_moy": 2.141,
-        "sp95_moy": 2.149,
-        "stations_count": 26,
+        "gazole_moy": 2.135,
+        "sp95_moy": null,
+        "stations_count": 25,
         "date": "2026-03-14"
       },
       "Carrefour": {
@@ -4892,9 +4892,9 @@
         "date": "2026-03-15"
       },
       "Autre": {
-        "gazole_moy": 2.155,
-        "sp95_moy": 2.149,
-        "stations_count": 17,
+        "gazole_moy": 2.146,
+        "sp95_moy": null,
+        "stations_count": 16,
         "date": "2026-03-15"
       },
       "Leclerc": {
@@ -4963,9 +4963,9 @@
         "date": "2026-03-16"
       },
       "Autre": {
-        "gazole_moy": 2.134,
-        "sp95_moy": 1.97,
-        "stations_count": 51,
+        "gazole_moy": 2.131,
+        "sp95_moy": 1.95,
+        "stations_count": 50,
         "date": "2026-03-16"
       },
       "Carrefour": {
@@ -5046,9 +5046,9 @@
         "date": "2026-03-17"
       },
       "Autre": {
-        "gazole_moy": 2.175,
-        "sp95_moy": 2.01,
-        "stations_count": 67,
+        "gazole_moy": 2.174,
+        "sp95_moy": 1.992,
+        "stations_count": 66,
         "date": "2026-03-17"
       },
       "Carrefour": {
@@ -5111,9 +5111,9 @@
         "date": "2026-03-18"
       },
       "Autre": {
-        "gazole_moy": 2.204,
-        "sp95_moy": 2.075,
-        "stations_count": 43,
+        "gazole_moy": 2.202,
+        "sp95_moy": 2.002,
+        "stations_count": 42,
         "date": "2026-03-18"
       },
       "Leclerc": {
@@ -5176,9 +5176,9 @@
         "date": "2026-03-19"
       },
       "Autre": {
-        "gazole_moy": 2.237,
-        "sp95_moy": 2.031,
-        "stations_count": 68,
+        "gazole_moy": 2.236,
+        "sp95_moy": 2.019,
+        "stations_count": 67,
         "date": "2026-03-19"
       },
       "Carrefour": {
@@ -5253,9 +5253,9 @@
         "date": "2026-03-20"
       },
       "Autre": {
-        "gazole_moy": 2.266,
-        "sp95_moy": 2.033,
-        "stations_count": 62,
+        "gazole_moy": 2.265,
+        "sp95_moy": 2.003,
+        "stations_count": 60,
         "date": "2026-03-20"
       },
       "Carrefour": {
@@ -5318,9 +5318,9 @@
         "date": "2026-03-21"
       },
       "Autre": {
-        "gazole_moy": 2.236,
-        "sp95_moy": 2.039,
-        "stations_count": 33,
+        "gazole_moy": 2.232,
+        "sp95_moy": 2.017,
+        "stations_count": 32,
         "date": "2026-03-21"
       },
       "Intermarch\u00e9": {
@@ -5389,9 +5389,9 @@
         "date": "2026-03-22"
       },
       "Autre": {
-        "gazole_moy": 2.272,
-        "sp95_moy": 2.149,
-        "stations_count": 19,
+        "gazole_moy": 2.267,
+        "sp95_moy": null,
+        "stations_count": 18,
         "date": "2026-03-22"
       },
       "Carrefour": {
@@ -5437,8 +5437,8 @@
       },
       "Autre": {
         "gazole_moy": 2.331,
-        "sp95_moy": 2.049,
-        "stations_count": 72,
+        "sp95_moy": 2.04,
+        "stations_count": 71,
         "date": "2026-03-23"
       },
       "Carrefour": {
@@ -5520,8 +5520,8 @@
       },
       "Autre": {
         "gazole_moy": 2.325,
-        "sp95_moy": 2.061,
-        "stations_count": 66,
+        "sp95_moy": 2.05,
+        "stations_count": 65,
         "date": "2026-03-24"
       },
       "Intermarch\u00e9": {
@@ -5584,9 +5584,9 @@
         "date": "2026-03-25"
       },
       "Autre": {
-        "gazole_moy": 2.309,
-        "sp95_moy": 2.112,
-        "stations_count": 57,
+        "gazole_moy": 2.307,
+        "sp95_moy": 2.043,
+        "stations_count": 54,
         "date": "2026-03-25"
       },
       "Carrefour": {
@@ -5649,9 +5649,9 @@
         "date": "2026-03-26"
       },
       "Autre": {
-        "gazole_moy": 2.286,
-        "sp95_moy": 2.029,
-        "stations_count": 56,
+        "gazole_moy": 2.284,
+        "sp95_moy": 2.005,
+        "stations_count": 55,
         "date": "2026-03-26"
       },
       "Intermarch\u00e9": {
@@ -5695,12 +5695,6 @@
   "2026-03-27": {
     "region": "\u00cele-de-France",
     "brands": {
-      "Autre": {
-        "gazole_moy": 2.284,
-        "sp95_moy": 2.108,
-        "stations_count": 56,
-        "date": "2026-03-27"
-      },
       "Total": {
         "gazole_moy": 2.09,
         "sp95_moy": 1.99,
@@ -5723,6 +5717,12 @@
         "gazole_moy": 2.342,
         "sp95_moy": null,
         "stations_count": 209,
+        "date": "2026-03-27"
+      },
+      "Autre": {
+        "gazole_moy": 2.282,
+        "sp95_moy": 2.017,
+        "stations_count": 54,
         "date": "2026-03-27"
       },
       "Carrefour": {
@@ -5785,9 +5785,9 @@
         "date": "2026-03-28"
       },
       "Autre": {
-        "gazole_moy": 2.292,
-        "sp95_moy": 2.199,
-        "stations_count": 24,
+        "gazole_moy": 2.285,
+        "sp95_moy": null,
+        "stations_count": 23,
         "date": "2026-03-28"
       },
       "Leclerc": {
@@ -5856,9 +5856,9 @@
         "date": "2026-03-29"
       },
       "Autre": {
-        "gazole_moy": 2.265,
-        "sp95_moy": 2.199,
-        "stations_count": 19,
+        "gazole_moy": 2.254,
+        "sp95_moy": null,
+        "stations_count": 18,
         "date": "2026-03-29"
       },
       "Leclerc": {
@@ -5903,9 +5903,9 @@
         "date": "2026-03-30"
       },
       "Autre": {
-        "gazole_moy": 2.322,
-        "sp95_moy": 2.064,
-        "stations_count": 62,
+        "gazole_moy": 2.32,
+        "sp95_moy": 1.997,
+        "stations_count": 61,
         "date": "2026-03-30"
       },
       "Intermarch\u00e9": {
@@ -5980,9 +5980,9 @@
         "date": "2026-03-31"
       },
       "Autre": {
-        "gazole_moy": 2.32,
-        "sp95_moy": 2.097,
-        "stations_count": 60,
+        "gazole_moy": 2.318,
+        "sp95_moy": 2.054,
+        "stations_count": 57,
         "date": "2026-03-31"
       },
       "Carrefour": {
@@ -6097,12 +6097,6 @@
   "2026-04-02": {
     "region": "\u00cele-de-France",
     "brands": {
-      "Autre": {
-        "gazole_moy": 2.35,
-        "sp95_moy": 2.133,
-        "stations_count": 54,
-        "date": "2026-04-02"
-      },
       "Avia": {
         "gazole_moy": 2.453,
         "sp95_moy": null,
@@ -6125,6 +6119,12 @@
         "gazole_moy": 2.427,
         "sp95_moy": null,
         "stations_count": 249,
+        "date": "2026-04-02"
+      },
+      "Autre": {
+        "gazole_moy": 2.341,
+        "sp95_moy": 2.057,
+        "stations_count": 52,
         "date": "2026-04-02"
       },
       "Intermarch\u00e9": {
@@ -6199,9 +6199,9 @@
         "date": "2026-04-03"
       },
       "Autre": {
-        "gazole_moy": 2.391,
-        "sp95_moy": 2.104,
-        "stations_count": 68,
+        "gazole_moy": 2.387,
+        "sp95_moy": 2.067,
+        "stations_count": 66,
         "date": "2026-04-03"
       },
       "Carrefour": {
@@ -6270,9 +6270,9 @@
         "date": "2026-04-04"
       },
       "Autre": {
-        "gazole_moy": 2.397,
-        "sp95_moy": 2.131,
-        "stations_count": 27,
+        "gazole_moy": 2.385,
+        "sp95_moy": 2.071,
+        "stations_count": 25,
         "date": "2026-04-04"
       },
       "Leclerc": {
@@ -6329,9 +6329,9 @@
         "date": "2026-04-05"
       },
       "Autre": {
-        "gazole_moy": 2.398,
-        "sp95_moy": 2.21,
-        "stations_count": 18,
+        "gazole_moy": 2.38,
+        "sp95_moy": 2.12,
+        "stations_count": 17,
         "date": "2026-04-05"
       },
       "Leclerc": {
@@ -6388,9 +6388,9 @@
         "date": "2026-04-06"
       },
       "Autre": {
-        "gazole_moy": 2.429,
-        "sp95_moy": 2.274,
-        "stations_count": 15,
+        "gazole_moy": 2.395,
+        "sp95_moy": null,
+        "stations_count": 13,
         "date": "2026-04-06"
       },
       "Leclerc": {
@@ -6447,9 +6447,9 @@
         "date": "2026-04-07"
       },
       "Autre": {
-        "gazole_moy": 2.384,
-        "sp95_moy": 2.124,
-        "stations_count": 45,
+        "gazole_moy": 2.377,
+        "sp95_moy": 2.081,
+        "stations_count": 43,
         "date": "2026-04-07"
       },
       "Intermarch\u00e9": {
@@ -6487,12 +6487,6 @@
   "2026-04-08": {
     "region": "\u00cele-de-France",
     "brands": {
-      "Autre": {
-        "gazole_moy": 2.432,
-        "sp95_moy": 2.173,
-        "stations_count": 60,
-        "date": "2026-04-08"
-      },
       "Total": {
         "gazole_moy": 2.25,
         "sp95_moy": 1.99,
@@ -6515,6 +6509,12 @@
         "gazole_moy": 2.523,
         "sp95_moy": null,
         "stations_count": 151,
+        "date": "2026-04-08"
+      },
+      "Autre": {
+        "gazole_moy": 2.42,
+        "sp95_moy": 2.105,
+        "stations_count": 57,
         "date": "2026-04-08"
       },
       "Carrefour": {
@@ -6583,9 +6583,9 @@
         "date": "2026-04-09"
       },
       "Autre": {
-        "gazole_moy": 2.397,
-        "sp95_moy": 2.129,
-        "stations_count": 46,
+        "gazole_moy": 2.393,
+        "sp95_moy": 2.059,
+        "stations_count": 45,
         "date": "2026-04-09"
       },
       "Intermarch\u00e9": {
@@ -6660,9 +6660,9 @@
         "date": "2026-04-10"
       },
       "Autre": {
-        "gazole_moy": 2.377,
-        "sp95_moy": 2.087,
-        "stations_count": 66,
+        "gazole_moy": 2.372,
+        "sp95_moy": 2.05,
+        "stations_count": 64,
         "date": "2026-04-10"
       },
       "Carrefour": {
@@ -6719,9 +6719,9 @@
         "date": "2026-04-11"
       },
       "Autre": {
-        "gazole_moy": 2.357,
-        "sp95_moy": 2.133,
-        "stations_count": 48,
+        "gazole_moy": 2.348,
+        "sp95_moy": 2.01,
+        "stations_count": 45,
         "date": "2026-04-11"
       },
       "Carrefour": {
@@ -6790,9 +6790,9 @@
         "date": "2026-04-12"
       },
       "Autre": {
-        "gazole_moy": 2.286,
-        "sp95_moy": 2.199,
-        "stations_count": 16,
+        "gazole_moy": 2.265,
+        "sp95_moy": null,
+        "stations_count": 15,
         "date": "2026-04-12"
       },
       "Leclerc": {
@@ -6843,9 +6843,9 @@
         "date": "2026-04-13"
       },
       "Autre": {
-        "gazole_moy": 2.343,
-        "sp95_moy": 2.061,
-        "stations_count": 52,
+        "gazole_moy": 2.338,
+        "sp95_moy": 2.041,
+        "stations_count": 51,
         "date": "2026-04-13"
       },
       "Intermarch\u00e9": {
@@ -6914,9 +6914,9 @@
         "date": "2026-04-14"
       },
       "Autre": {
-        "gazole_moy": 2.323,
-        "sp95_moy": 2.087,
-        "stations_count": 49,
+        "gazole_moy": 2.316,
+        "sp95_moy": 2.049,
+        "stations_count": 47,
         "date": "2026-04-14"
       },
       "Intermarch\u00e9": {
@@ -6991,9 +6991,9 @@
         "date": "2026-04-15"
       },
       "Autre": {
-        "gazole_moy": 2.305,
-        "sp95_moy": 2.09,
-        "stations_count": 48,
+        "gazole_moy": 2.298,
+        "sp95_moy": 2.063,
+        "stations_count": 47,
         "date": "2026-04-15"
       },
       "Carrefour": {
@@ -7031,12 +7031,6 @@
   "2026-04-16": {
     "region": "\u00cele-de-France",
     "brands": {
-      "Autre": {
-        "gazole_moy": 2.284,
-        "sp95_moy": 2.099,
-        "stations_count": 54,
-        "date": "2026-04-16"
-      },
       "Total": {
         "gazole_moy": 2.203,
         "sp95_moy": 1.976,
@@ -7059,6 +7053,12 @@
         "gazole_moy": 2.281,
         "sp95_moy": null,
         "stations_count": 197,
+        "date": "2026-04-16"
+      },
+      "Autre": {
+        "gazole_moy": 2.266,
+        "sp95_moy": 2.018,
+        "stations_count": 51,
         "date": "2026-04-16"
       },
       "Intermarch\u00e9": {
@@ -7127,9 +7127,9 @@
         "date": "2026-04-17"
       },
       "Autre": {
-        "gazole_moy": 2.246,
-        "sp95_moy": 2.124,
-        "stations_count": 62,
+        "gazole_moy": 2.24,
+        "sp95_moy": 2.087,
+        "stations_count": 61,
         "date": "2026-04-17"
       },
       "Carrefour": {
@@ -7204,9 +7204,9 @@
         "date": "2026-04-18"
       },
       "Autre": {
-        "gazole_moy": 2.196,
-        "sp95_moy": 2.099,
-        "stations_count": 36,
+        "gazole_moy": 2.185,
+        "sp95_moy": 1.999,
+        "stations_count": 35,
         "date": "2026-04-18"
       },
       "Intermarch\u00e9": {
@@ -7263,9 +7263,9 @@
         "date": "2026-04-19"
       },
       "Autre": {
-        "gazole_moy": 2.191,
-        "sp95_moy": 2.199,
-        "stations_count": 21,
+        "gazole_moy": 2.173,
+        "sp95_moy": null,
+        "stations_count": 20,
         "date": "2026-04-19"
       },
       "Carrefour": {
@@ -7316,9 +7316,9 @@
         "date": "2026-04-20"
       },
       "Autre": {
-        "gazole_moy": 2.175,
-        "sp95_moy": 2.052,
-        "stations_count": 53,
+        "gazole_moy": 2.167,
+        "sp95_moy": 2.015,
+        "stations_count": 52,
         "date": "2026-04-20"
       },
       "Carrefour": {
@@ -7369,70 +7369,70 @@
     "region": "\u00cele-de-France",
     "brands": {
       "Total": {
-        "gazole_moy": 2.12,
+        "gazole_moy": 2.118,
         "sp95_moy": 1.973,
         "stations_count": 252,
-        "date": "2026-04-21T12:35:31.108986"
-      },
-      "Carrefour": {
-        "gazole_moy": 2.199,
-        "sp95_moy": 2.01,
-        "stations_count": 92,
-        "date": "2026-04-21T12:35:31.109020"
-      },
-      "Leclerc": {
-        "gazole_moy": 2.137,
-        "sp95_moy": 1.996,
-        "stations_count": 46,
-        "date": "2026-04-21T12:35:31.109027"
+        "date": "2026-04-21T19:37:40.382363"
       },
       "BP": {
-        "gazole_moy": 2.187,
+        "gazole_moy": 2.183,
         "sp95_moy": 1.849,
-        "stations_count": 118,
-        "date": "2026-04-21T12:35:31.109033"
+        "stations_count": 115,
+        "date": "2026-04-21T19:37:40.382392"
+      },
+      "Carrefour": {
+        "gazole_moy": 2.177,
+        "sp95_moy": 2.004,
+        "stations_count": 93,
+        "date": "2026-04-21T19:37:40.382401"
       },
       "Auchan": {
-        "gazole_moy": 2.191,
-        "sp95_moy": 2.022,
+        "gazole_moy": 2.181,
+        "sp95_moy": 2.019,
         "stations_count": 30,
-        "date": "2026-04-21T12:35:31.109036"
-      },
-      "Esso": {
-        "gazole_moy": 2.214,
-        "sp95_moy": 2.182,
-        "stations_count": 62,
-        "date": "2026-04-21T12:35:31.109040"
-      },
-      "Intermarch\u00e9": {
-        "gazole_moy": 2.182,
-        "sp95_moy": 2.023,
-        "stations_count": 62,
-        "date": "2026-04-21T12:35:31.109045"
-      },
-      "Avia": {
-        "gazole_moy": 2.406,
-        "sp95_moy": 2.189,
-        "stations_count": 16,
-        "date": "2026-04-21T12:35:31.109048"
+        "date": "2026-04-21T19:37:40.382406"
       },
       "Autre": {
-        "gazole_moy": 2.249,
-        "sp95_moy": 2.087,
-        "stations_count": 90,
-        "date": "2026-04-21T12:35:31.109054"
+        "gazole_moy": 2.227,
+        "sp95_moy": 2.047,
+        "stations_count": 85,
+        "date": "2026-04-21T19:37:40.382413"
       },
-      "Syst\u00e8me U": {
-        "gazole_moy": 2.197,
-        "sp95_moy": 2.013,
-        "stations_count": 16,
-        "date": "2026-04-21T12:35:31.109057"
+      "Intermarch\u00e9": {
+        "gazole_moy": 2.17,
+        "sp95_moy": 2.019,
+        "stations_count": 61,
+        "date": "2026-04-21T19:37:40.382419"
+      },
+      "Esso": {
+        "gazole_moy": 2.209,
+        "sp95_moy": 2.157,
+        "stations_count": 66,
+        "date": "2026-04-21T19:37:40.382427"
+      },
+      "Leclerc": {
+        "gazole_moy": 2.132,
+        "sp95_moy": 1.99,
+        "stations_count": 49,
+        "date": "2026-04-21T19:37:40.382432"
+      },
+      "Avia": {
+        "gazole_moy": 2.384,
+        "sp95_moy": 2.189,
+        "stations_count": 18,
+        "date": "2026-04-21T19:37:40.382435"
       },
       "Shell": {
-        "gazole_moy": 2.407,
+        "gazole_moy": 2.399,
         "sp95_moy": 2.249,
-        "stations_count": 5,
-        "date": "2026-04-21T12:35:31.109060"
+        "stations_count": 4,
+        "date": "2026-04-21T19:37:40.382439"
+      },
+      "Syst\u00e8me U": {
+        "gazole_moy": 2.189,
+        "sp95_moy": 2.013,
+        "stations_count": 14,
+        "date": "2026-04-21T19:37:40.382442"
       }
     }
   }

@@ -8,6 +8,8 @@ BASE_URL = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix
 DATA_FILE = "/home/openclaw/.openclaw/workspace/QuiSontLesFourbes/gas_prices.json"
 MAPPING_URL = "https://raw.githubusercontent.com/Aohzan/hass-prixcarburant/master/custom_components/prix_carburant/stations_name.json"
 
+EXCLUDED_STATIONS = {"75016026", "75001003", "94290003", "77860002", "75017019"}
+
 def collect():
     stats = defaultdict(lambda: {"gazole": [], "sp95": []})
     
@@ -43,6 +45,9 @@ def collect():
             
         for record in results:
             station_id = str(record.get("id"))
+            if station_id in EXCLUDED_STATIONS:
+                continue
+                
             gazole = record.get("gazole_prix")
             sp95 = record.get("sp95_prix")
             
