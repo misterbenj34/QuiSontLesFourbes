@@ -19,16 +19,41 @@ interface BrentData {
 // Couleurs associées aux marques pour plus de lisibilité
 const brandColors: Record<string, string> = {
   'Total': '#ff0000',
+  'TotalEnergies': '#ff0000',
+  'TotalEnergies Access': '#ff4d4d',
   'Leclerc': '#0055a4',
   'Carrefour': '#00387b',
+  'Carrefour Market': '#005ebd',
   'Intermarche': '#000000',
+  'Intermarché': '#000000',
+  'Intermarché Contact': '#333333',
   'Auchan': '#e30613',
+  'Système U': '#005eb8',
   'Systeme U': '#005eb8',
+  'BP': '#009900',
   'Bp': '#009900',
+  'BP Express': '#33cc33',
   'Esso': '#d32f2f',
+  'Esso Express': '#e57373',
   'Shell': '#ffeb3b',
+  'Avia': '#d32f2f',
+  'Agip': '#ffcc00',
   'Autre': '#9e9e9e'
 };
+
+function getColorForBrand(brand: string): string {
+  if (brandColors[brand]) return brandColors[brand];
+  
+  // Hash string into a consistent color
+  let hash = 0;
+  for (let i = 0; i < brand.length; i++) {
+    hash = brand.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  
+  // Generate HSL to ensure distinct, vibrant colors
+  const hue = Math.abs(hash) % 360;
+  return `hsl(${hue}, 70%, 50%)`;
+}
 
 async function loadData() {
   const [gasRes, brentRes] = await Promise.all([
@@ -120,7 +145,7 @@ async function renderChart() {
         datasets.push({
           label: brand,
           data: data,
-          borderColor: brandColors[brand] || '#000000',
+          borderColor: getColorForBrand(brand),
           borderWidth: 2,
           tension: 0.4,
           pointRadius: 0,
