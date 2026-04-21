@@ -177,8 +177,12 @@ async function renderChart() {
 
   const ctx = document.getElementById('priceChart') as HTMLCanvasElement;
   let currentChart: Chart | null = null;
-  let currentFuelType: 'gazole_moy' | 'sp95_moy' = 'gazole_moy';
-  let currentViewMode: 'absolute' | 'base100' = 'base100';
+  
+  const fuelSelector = document.getElementById('fuel-selector') as HTMLSelectElement;
+  const viewSelector = document.getElementById('view-selector') as HTMLSelectElement;
+
+  let currentFuelType: 'gazole_moy' | 'sp95_moy' = (fuelSelector?.value as 'gazole_moy' | 'sp95_moy') || 'gazole_moy';
+  let currentViewMode: 'absolute' | 'base100' = (viewSelector?.value as 'absolute' | 'base100') || 'base100';
 
   const updateChart = () => {
     if (currentChart) {
@@ -315,9 +319,6 @@ async function renderChart() {
   updateChart();
 
   // Gestion des sélecteurs
-  const fuelSelector = document.getElementById('fuel-selector') as HTMLSelectElement;
-  const viewSelector = document.getElementById('view-selector') as HTMLSelectElement;
-
   if (fuelSelector) {
     fuelSelector.addEventListener('change', (e) => {
       currentFuelType = (e.target as HTMLSelectElement).value as 'gazole_moy' | 'sp95_moy';
