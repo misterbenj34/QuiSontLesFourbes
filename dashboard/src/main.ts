@@ -204,6 +204,7 @@ async function renderChart() {
       borderWidth: 3,
       fill: false,
       tension: 0.2,
+      spanGaps: true,
       yAxisID: 'y'
     });
 
