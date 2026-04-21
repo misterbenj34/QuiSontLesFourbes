@@ -59,17 +59,26 @@ async function loadData() {
 
 function calculateVariation(data: (number|null)[], dates: string[], daysAgo: number): string {
   if (data.length === 0) return '-';
-  const lastIndex = data.length - 1;
-  const lastVal = data[lastIndex];
-  if (lastVal === null) return '-';
-
-  const lastDate = new Date(dates[lastIndex]);
+  
+  // Find the last actual non-null value and its date
+  let lastValidIndex = -1;
+  for (let i = data.length - 1; i >= 0; i--) {
+    if (data[i] !== null) {
+      lastValidIndex = i;
+      break;
+    }
+  }
+  
+  if (lastValidIndex === -1) return '-';
+  
+  const lastVal = data[lastValidIndex] as number;
+  const lastDate = new Date(dates[lastValidIndex]);
   const targetDate = new Date(lastDate);
   targetDate.setDate(targetDate.getDate() - daysAgo);
 
   let closestIndex = -1;
   let minDiff = Infinity;
-  for (let i = 0; i <= lastIndex; i++) {
+  for (let i = 0; i <= lastValidIndex; i++) {
     if (data[i] === null) continue;
     const d = new Date(dates[i]);
     const diff = Math.abs(d.getTime() - targetDate.getTime());
@@ -79,7 +88,7 @@ function calculateVariation(data: (number|null)[], dates: string[], daysAgo: num
     }
   }
 
-  if (closestIndex === -1 || closestIndex === lastIndex) return '-';
+  if (closestIndex === -1 || closestIndex === lastValidIndex) return '-';
   
   const startVal = data[closestIndex];
   if (startVal === null || startVal === 0) return '-';
