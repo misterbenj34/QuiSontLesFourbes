@@ -156,10 +156,10 @@ function updateTable(dates: string[], brentData: (number|null)[], allBrands: Set
   });
 }
 
-function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allBrands: Set<string>, gasPrices: Record<string, GasData>, currentFuelType: 'gazole_moy' | 'sp95_moy') {
+function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allBrands: Set<string>, gasPrices: Record<string, GasData>, currentFuelType: 'gazole_moy' | 'sp95_moy'): Record<string, number> {
   const tbody = document.querySelector('#margin-table tbody');
   const container = document.getElementById('margin-container');
-  if (!tbody || !container) return;
+  if (!tbody || !container) return {};
 
   container.style.display = 'block';
   tbody.innerHTML = '';
@@ -173,9 +173,11 @@ function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allB
     }
   }
 
-  if (currentBrent === null) return;
+  if (currentBrent === null) return {};
 
-  Array.from(allBrands).sort().forEach(brand => {
+  const brandStats: any[] = [];
+
+  Array.from(allBrands).forEach(brand => {
     let refGasSum = 0;
     let refGasCount = 0;
     let refGapSum = 0;
@@ -218,30 +220,42 @@ function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allB
       const currentGap = currentGasPrice - currentBrent;
       const extraMargin = currentGap - refGapAvg;
 
-      const tr = document.createElement('tr');
-      
-      const tdName = document.createElement('td');
-      tdName.textContent = brand;
-      tdName.style.fontWeight = 'bold';
-      tr.appendChild(tdName);
-
-      const tdRefGas = document.createElement('td');
-      tdRefGas.textContent = refGasAvg.toFixed(3) + ' €';
-      tr.appendChild(tdRefGas);
-
-      const tdRefGap = document.createElement('td');
-      tdRefGap.textContent = refGapAvg.toFixed(3) + ' €';
-      tr.appendChild(tdRefGap);
-
-      const tdExtraMargin = document.createElement('td');
-      tdExtraMargin.textContent = extraMargin > 0 ? '+' + extraMargin.toFixed(3) + ' €' : extraMargin.toFixed(3) + ' €';
-      tdExtraMargin.style.color = extraMargin > 0 ? '#dc3545' : '#198754';
-      tdExtraMargin.style.fontWeight = 'bold';
-      tr.appendChild(tdExtraMargin);
-
-      tbody.appendChild(tr);
+      brandStats.push({ brand, refGasAvg, refGapAvg, extraMargin });
     }
   });
+
+  // Tri croissant (les plus faibles marges sup d'abord)
+  brandStats.sort((a, b) => a.extraMargin - b.extraMargin);
+
+  const refGaps: Record<string, number> = {};
+
+  brandStats.forEach(stat => {
+    refGaps[stat.brand] = stat.refGapAvg;
+    const tr = document.createElement('tr');
+    
+    const tdName = document.createElement('td');
+    tdName.textContent = stat.brand;
+    tdName.style.fontWeight = 'bold';
+    tr.appendChild(tdName);
+
+    const tdRefGas = document.createElement('td');
+    tdRefGas.textContent = stat.refGasAvg.toFixed(3) + ' €';
+    tr.appendChild(tdRefGas);
+
+    const tdRefGap = document.createElement('td');
+    tdRefGap.textContent = stat.refGapAvg.toFixed(3) + ' €';
+    tr.appendChild(tdRefGap);
+
+    const tdExtraMargin = document.createElement('td');
+    tdExtraMargin.textContent = stat.extraMargin > 0 ? '+' + stat.extraMargin.toFixed(3) + ' €' : stat.extraMargin.toFixed(3) + ' €';
+    tdExtraMargin.style.color = stat.extraMargin > 0 ? '#dc3545' : '#198754';
+    tdExtraMargin.style.fontWeight = 'bold';
+    tr.appendChild(tdExtraMargin);
+
+    tbody.appendChild(tr);
+  });
+
+  return refGaps;
 }
 
 async function renderChart() {
@@ -277,6 +291,7 @@ async function renderChart() {
 
   const ctx = document.getElementById('priceChart') as HTMLCanvasElement;
   let currentChart: Chart | null = null;
+  let marginChart: Chart | null = null;
   
   const fuelSelector = document.getElementById('fuel-selector') as HTMLSelectElement;
   const viewSelector = document.getElementById('view-selector') as HTMLSelectElement;
@@ -348,7 +363,7 @@ async function renderChart() {
     });
 
     updateTable(dates, brentEurLiter, allBrands, gasPrices, currentFuelType);
-    updateMarginTable(dates, brentEurLiter, allBrands, gasPrices, currentFuelType);
+    const refGaps = updateMarginTable(dates, brentEurLiter, allBrands, gasPrices, currentFuelType);
 
     currentChart = new Chart(ctx, {
       type: 'line',
@@ -416,6 +431,103 @@ async function renderChart() {
         }
       }
     });
+
+    // Mettre à jour le graphique des marges
+    if (marginChart) {
+      marginChart.destroy();
+    }
+
+    const marginCtx = document.getElementById('marginChart') as HTMLCanvasElement;
+    const marginContainer = document.getElementById('margin-chart-container');
+    
+    if (marginCtx && marginContainer && Object.keys(refGaps).length > 0) {
+      marginContainer.style.display = 'block';
+      const marginDates = dates.filter(d => d >= '2026-02-27');
+      const marginDatasets: any[] = [];
+
+      Array.from(allBrands).forEach(brand => {
+        if (refGaps[brand] === undefined) return;
+        const refGap = refGaps[brand];
+
+        const data = marginDates.map(date => {
+          const dateIdx = dates.indexOf(date);
+          const brentVal = brentEurLiter[dateIdx];
+          const dayData = gasPrices[date];
+          const gasVal = (dayData && dayData.brands && dayData.brands[brand]) 
+            ? dayData.brands[brand][currentFuelType] 
+            : null;
+
+          if (gasVal === null || brentVal === null) return null;
+          
+          const currentGap = gasVal - brentVal;
+          return currentGap - refGap;
+        });
+
+        if (data.some(val => val !== null)) {
+          marginDatasets.push({
+            label: brand,
+            data: data,
+            borderColor: getColorForBrand(brand),
+            backgroundColor: getColorForBrand(brand),
+            borderWidth: 2,
+            tension: 0.4,
+            pointRadius: 0,
+            pointHitRadius: 10,
+            spanGaps: true
+          });
+        }
+      });
+
+      // Ligne de référence à 0
+      marginDatasets.push({
+        label: 'Référence (0)',
+        data: marginDates.map(() => 0),
+        borderColor: '#000000',
+        borderWidth: 1,
+        borderDash: [5, 5],
+        pointRadius: 0,
+        fill: false
+      });
+
+      marginChart = new Chart(marginCtx, {
+        type: 'line',
+        data: {
+          labels: marginDates,
+          datasets: marginDatasets
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: {
+            mode: 'index',
+            intersect: false,
+          },
+          plugins: {
+            legend: { position: 'bottom', labels: { boxWidth: 15, padding: 10 } },
+            tooltip: {
+              callbacks: {
+                label: function(context: any) {
+                  let label = context.dataset.label || '';
+                  if (label) label += ': ';
+                  if (context.parsed.y !== null) {
+                    const val = context.parsed.y;
+                    label += (val > 0 ? '+' : '') + val.toFixed(3) + ' €/L';
+                  }
+                  return label;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              type: 'linear',
+              display: true,
+              title: { display: true, text: 'Marge Supplémentaire (€/L)' }
+            }
+          }
+        }
+      });
+    }
   };
 
   // Initialisation
