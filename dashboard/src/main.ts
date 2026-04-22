@@ -114,6 +114,18 @@ function updateTable(dates: string[], brentData: (number|null)[], allBrands: Set
     tdName.style.fontWeight = 'bold';
     tr.appendChild(tdName);
 
+    // Calculate last price
+    let lastPrice = '-';
+    for (let i = data.length - 1; i >= 0; i--) {
+      if (data[i] !== null) {
+        lastPrice = (data[i] as number).toFixed(3) + ' €';
+        break;
+      }
+    }
+    const tdPrice = document.createElement('td');
+    tdPrice.textContent = lastPrice;
+    tr.appendChild(tdPrice);
+
     const td7 = document.createElement('td');
     td7.innerHTML = calculateVariation(data, dates, 7);
     tr.appendChild(td7);
@@ -141,6 +153,94 @@ function updateTable(dates: string[], brentData: (number|null)[], allBrands: Set
         return null;
     });
     tbody.appendChild(createRow(brand, brandData));
+  });
+}
+
+function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allBrands: Set<string>, gasPrices: Record<string, GasData>, currentFuelType: 'gazole_moy' | 'sp95_moy') {
+  const tbody = document.querySelector('#margin-table tbody');
+  const container = document.getElementById('margin-container');
+  if (!tbody || !container) return;
+
+  container.style.display = 'block';
+  tbody.innerHTML = '';
+
+  // Get current brent
+  let currentBrent: number | null = null;
+  for (let i = brentEurLiter.length - 1; i >= 0; i--) {
+    if (brentEurLiter[i] !== null) {
+      currentBrent = brentEurLiter[i];
+      break;
+    }
+  }
+
+  if (currentBrent === null) return;
+
+  Array.from(allBrands).sort().forEach(brand => {
+    let refGasSum = 0;
+    let refGasCount = 0;
+    let refGapSum = 0;
+    let refGapCount = 0;
+
+    let currentGasPrice: number | null = null;
+
+    for (let i = 0; i < dates.length; i++) {
+      const date = dates[i];
+      const brentVal = brentEurLiter[i];
+      
+      const dayData = gasPrices[date];
+      const gasVal = (dayData && dayData.brands && dayData.brands[brand]) 
+        ? dayData.brands[brand][currentFuelType] 
+        : null;
+
+      // Current Gas Price (last non-null)
+      if (gasVal !== null) {
+        currentGasPrice = gasVal;
+      }
+
+      // Reference period logic
+      if (date >= '2026-01-01' && date <= '2026-02-26') {
+        if (gasVal !== null) {
+          refGasSum += gasVal;
+          refGasCount++;
+          
+          if (brentVal !== null) {
+            refGapSum += (gasVal - brentVal);
+            refGapCount++;
+          }
+        }
+      }
+    }
+
+    if (refGasCount > 0 && currentGasPrice !== null) {
+      const refGasAvg = refGasSum / refGasCount;
+      const refGapAvg = refGapCount > 0 ? (refGapSum / refGapCount) : 0;
+      
+      const currentGap = currentGasPrice - currentBrent;
+      const extraMargin = currentGap - refGapAvg;
+
+      const tr = document.createElement('tr');
+      
+      const tdName = document.createElement('td');
+      tdName.textContent = brand;
+      tdName.style.fontWeight = 'bold';
+      tr.appendChild(tdName);
+
+      const tdRefGas = document.createElement('td');
+      tdRefGas.textContent = refGasAvg.toFixed(3) + ' €';
+      tr.appendChild(tdRefGas);
+
+      const tdRefGap = document.createElement('td');
+      tdRefGap.textContent = refGapAvg.toFixed(3) + ' €';
+      tr.appendChild(tdRefGap);
+
+      const tdExtraMargin = document.createElement('td');
+      tdExtraMargin.textContent = extraMargin > 0 ? '+' + extraMargin.toFixed(3) + ' €' : extraMargin.toFixed(3) + ' €';
+      tdExtraMargin.style.color = extraMargin > 0 ? '#dc3545' : '#198754';
+      tdExtraMargin.style.fontWeight = 'bold';
+      tr.appendChild(tdExtraMargin);
+
+      tbody.appendChild(tr);
+    }
   });
 }
 
@@ -208,6 +308,8 @@ async function renderChart() {
       borderWidth: 3,
       fill: false,
       tension: 0.2,
+      pointRadius: 0,
+      pointHitRadius: 10,
       spanGaps: true,
       yAxisID: 'y'
     });
@@ -246,6 +348,7 @@ async function renderChart() {
     });
 
     updateTable(dates, brentEurLiter, allBrands, gasPrices, currentFuelType);
+    updateMarginTable(dates, brentEurLiter, allBrands, gasPrices, currentFuelType);
 
     currentChart = new Chart(ctx, {
       type: 'line',
