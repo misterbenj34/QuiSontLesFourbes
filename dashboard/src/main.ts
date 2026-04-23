@@ -190,9 +190,15 @@ function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allB
       const brentVal = brentEurLiter[i];
       
       const dayData = gasPrices[date];
-      const gasVal = (dayData && dayData.brands && dayData.brands[brand]) 
+      const rawGasVal = (dayData && dayData.brands && dayData.brands[brand]) 
         ? dayData.brands[brand][currentFuelType] 
         : null;
+
+      let gasVal = null;
+      if (rawGasVal !== null) {
+        const accise = currentFuelType === 'gazole_moy' ? 0.608 : 0.67;
+        gasVal = (rawGasVal / 1.20) - accise;
+      }
 
       // Current Gas Price (last non-null)
       if (gasVal !== null) {
@@ -453,9 +459,15 @@ async function renderChart() {
           const dateIdx = dates.indexOf(date);
           const brentVal = brentEurLiter[dateIdx];
           const dayData = gasPrices[date];
-          const gasVal = (dayData && dayData.brands && dayData.brands[brand]) 
+          const rawGasVal = (dayData && dayData.brands && dayData.brands[brand]) 
             ? dayData.brands[brand][currentFuelType] 
             : null;
+
+          let gasVal = null;
+          if (rawGasVal !== null) {
+            const accise = currentFuelType === 'gazole_moy' ? 0.608 : 0.67;
+            gasVal = (rawGasVal / 1.20) - accise;
+          }
 
           if (gasVal === null || brentVal === null) return null;
           
