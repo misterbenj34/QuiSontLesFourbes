@@ -164,26 +164,15 @@ function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allB
   container.style.display = 'block';
   tbody.innerHTML = '';
 
-  // Get current brent
-  let currentBrent: number | null = null;
-  for (let i = brentEurLiter.length - 1; i >= 0; i--) {
-    if (brentEurLiter[i] !== null) {
-      currentBrent = brentEurLiter[i];
-      break;
-    }
-  }
-
-  if (currentBrent === null) return {};
-
   const brandStats: any[] = [];
 
   Array.from(allBrands).forEach(brand => {
-    let refGasSum = 0;
-    let refGasCount = 0;
     let refGapSum = 0;
     let refGapCount = 0;
 
     let currentGasPrice: number | null = null;
+    let currentRawGasPrice: number | null = null;
+    let currentBrent: number | null = null;
 
     for (let i = 0; i < dates.length; i++) {
       const date = dates[i];
@@ -201,37 +190,32 @@ function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allB
       }
 
       // Current Gas Price (last non-null)
-      if (gasVal !== null) {
+      if (gasVal !== null && brentVal !== null) {
         currentGasPrice = gasVal;
+        currentRawGasPrice = rawGasVal;
+        currentBrent = brentVal;
       }
 
       // Reference period logic
       if (date >= '2026-01-01' && date <= '2026-01-31') {
-        if (gasVal !== null) {
-          refGasSum += gasVal;
-          refGasCount++;
-          
-          if (brentVal !== null) {
-            refGapSum += (gasVal - brentVal);
-            refGapCount++;
-          }
+        if (gasVal !== null && brentVal !== null) {
+          refGapSum += (gasVal - brentVal);
+          refGapCount++;
         }
       }
     }
 
-    if (refGasCount > 0 && currentGasPrice !== null) {
-      const refGasAvg = refGasSum / refGasCount;
-      const refGapAvg = refGapCount > 0 ? (refGapSum / refGapCount) : 0;
-      
+    if (refGapCount > 0 && currentGasPrice !== null && currentBrent !== null) {
+      const refGapAvg = refGapSum / refGapCount;
       const currentGap = currentGasPrice - currentBrent;
       const extraMargin = currentGap - refGapAvg;
 
-      brandStats.push({ brand, refGasAvg, refGapAvg, extraMargin });
+      brandStats.push({ brand, latestPrice: currentRawGasPrice, refGapAvg, currentGap, extraMargin });
     }
   });
 
-  // Tri croissant (les plus faibles marges sup d'abord)
-  brandStats.sort((a, b) => a.extraMargin - b.extraMargin);
+  // Tri décroissant sur extraMargin pour mettre les plus fourbes en premier
+  brandStats.sort((a, b) => b.extraMargin - a.extraMargin);
 
   const refGaps: Record<string, number> = {};
 
@@ -244,13 +228,17 @@ function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allB
     tdName.style.fontWeight = 'bold';
     tr.appendChild(tdName);
 
-    const tdRefGas = document.createElement('td');
-    tdRefGas.textContent = stat.refGasAvg.toFixed(3) + ' €';
-    tr.appendChild(tdRefGas);
+    const tdLatestPrice = document.createElement('td');
+    tdLatestPrice.textContent = stat.latestPrice.toFixed(3) + ' €';
+    tr.appendChild(tdLatestPrice);
 
     const tdRefGap = document.createElement('td');
     tdRefGap.textContent = stat.refGapAvg.toFixed(3) + ' €';
     tr.appendChild(tdRefGap);
+
+    const tdCurrentGap = document.createElement('td');
+    tdCurrentGap.textContent = stat.currentGap.toFixed(3) + ' €';
+    tr.appendChild(tdCurrentGap);
 
     const tdExtraMargin = document.createElement('td');
     tdExtraMargin.textContent = stat.extraMargin > 0 ? '+' + stat.extraMargin.toFixed(3) + ' €' : stat.extraMargin.toFixed(3) + ' €';

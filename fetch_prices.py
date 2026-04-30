@@ -5,7 +5,7 @@ from datetime import datetime
 from collections import defaultdict
 
 BASE_URL = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records"
-DATA_FILE = "/home/openclaw/.openclaw/workspace/QuiSontLesFourbes/gas_prices.json"
+DATA_FILE = "gas_prices.json"
 MAPPING_URL = "https://raw.githubusercontent.com/Aohzan/hass-prixcarburant/master/custom_components/prix_carburant/stations_name.json"
 
 EXCLUDED_STATIONS = {"75016026", "75001003", "94290003", "77860002", "75017019"}

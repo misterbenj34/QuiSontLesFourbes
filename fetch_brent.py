@@ -4,7 +4,7 @@ import time
 import datetime
 import os
 
-OUTPUT_FILE = "/home/openclaw/.openclaw/workspace/QuiSontLesFourbes/brent_prices.json"
+OUTPUT_FILE = "brent_prices.json"
 
 def fetch_brent_prices():
     # Depuis le 1er janvier 2026
