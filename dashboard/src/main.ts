@@ -206,7 +206,7 @@ function updateMarginTable(dates: string[], brentEurLiter: (number|null)[], allB
       }
 
       // Reference period logic
-      if (date >= '2026-01-01' && date <= '2026-02-26') {
+      if (date >= '2026-01-01' && date <= '2026-01-31') {
         if (gasVal !== null) {
           refGasSum += gasVal;
           refGasCount++;
