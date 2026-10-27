@@ -20010,5 +20010,76 @@
         "date": "2026-10-26T14:49:22.935382"
       }
     }
+  },
+  "2026-10-27": {
+    "region": "\u00cele-de-France",
+    "brands": {
+      "Leclerc": {
+        "gazole_moy": 2.393,
+        "sp95_moy": 2.17,
+        "stations_count": 46,
+        "date": "2026-10-27T13:55:37.956508"
+      },
+      "Carrefour": {
+        "gazole_moy": 2.407,
+        "sp95_moy": 2.175,
+        "stations_count": 75,
+        "date": "2026-10-27T13:55:37.956519"
+      },
+      "Total": {
+        "gazole_moy": 2.251,
+        "sp95_moy": 2.031,
+        "stations_count": 251,
+        "date": "2026-10-27T13:55:37.956529"
+      },
+      "Avia": {
+        "gazole_moy": 2.587,
+        "sp95_moy": 2.379,
+        "stations_count": 18,
+        "date": "2026-10-27T13:55:37.956532"
+      },
+      "Intermarch\u00e9": {
+        "gazole_moy": 2.398,
+        "sp95_moy": 2.197,
+        "stations_count": 58,
+        "date": "2026-10-27T13:55:37.956536"
+      },
+      "BP": {
+        "gazole_moy": 2.501,
+        "sp95_moy": 1.849,
+        "stations_count": 105,
+        "date": "2026-10-27T13:55:37.956540"
+      },
+      "Esso": {
+        "gazole_moy": 2.434,
+        "sp95_moy": 2.358,
+        "stations_count": 69,
+        "date": "2026-10-27T13:55:37.956544"
+      },
+      "Syst\u00e8me U": {
+        "gazole_moy": 2.381,
+        "sp95_moy": 2.173,
+        "stations_count": 14,
+        "date": "2026-10-27T13:55:37.956546"
+      },
+      "Autre": {
+        "gazole_moy": 2.409,
+        "sp95_moy": 2.196,
+        "stations_count": 117,
+        "date": "2026-10-27T13:55:37.956551"
+      },
+      "Auchan": {
+        "gazole_moy": 2.403,
+        "sp95_moy": 2.212,
+        "stations_count": 17,
+        "date": "2026-10-27T13:55:37.956554"
+      },
+      "Shell": {
+        "gazole_moy": 2.632,
+        "sp95_moy": 2.449,
+        "stations_count": 4,
+        "date": "2026-10-27T13:55:37.956557"
+      }
+    }
   }
 }
