@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write # Needed to redeploy GitHub Pages after a data update
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,9 +33,23 @@ jobs:
           python fetch_prices.py
 
       - name: Commit and push changes
+        id: commit
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add brent_prices.json gas_prices.json
-          git commit -m "chore(data): auto-update daily prices" || exit 0
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "chore(data): auto-update daily prices"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Commits made with GITHUB_TOKEN do not trigger pages.yml (on: push),
+      # so we dispatch it explicitly. workflow_dispatch is allowed with GITHUB_TOKEN.
+      - name: Redeploy GitHub Pages
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --ref main --repo "$GITHUB_REPOSITORY"
