@@ -20799,67 +20799,67 @@
         "gazole_moy": 2.144,
         "sp95_moy": 2.043,
         "stations_count": 48,
-        "date": "2026-11-07T14:39:14.909774"
+        "date": "2026-11-07T19:20:03.519960"
       },
       "Carrefour": {
-        "gazole_moy": 2.178,
+        "gazole_moy": 2.177,
         "sp95_moy": 2.069,
         "stations_count": 74,
-        "date": "2026-11-07T14:39:14.909787"
+        "date": "2026-11-07T19:20:03.519973"
       },
       "Total": {
-        "gazole_moy": 2.162,
-        "sp95_moy": 2.021,
-        "stations_count": 269,
-        "date": "2026-11-07T14:39:14.909795"
+        "gazole_moy": 2.163,
+        "sp95_moy": 2.025,
+        "stations_count": 261,
+        "date": "2026-11-07T19:20:03.519983"
       },
       "Avia": {
         "gazole_moy": 2.477,
         "sp95_moy": 2.379,
         "stations_count": 18,
-        "date": "2026-11-07T14:39:14.909798"
+        "date": "2026-11-07T19:20:03.519986"
       },
       "Intermarch\u00e9": {
-        "gazole_moy": 2.142,
+        "gazole_moy": 2.141,
         "sp95_moy": 2.071,
         "stations_count": 58,
-        "date": "2026-11-07T14:39:14.909804"
+        "date": "2026-11-07T19:20:03.519992"
       },
       "BP": {
         "gazole_moy": 2.311,
         "sp95_moy": 1.849,
         "stations_count": 105,
-        "date": "2026-11-07T14:39:14.909808"
+        "date": "2026-11-07T19:20:03.519997"
       },
       "Esso": {
         "gazole_moy": 2.277,
         "sp95_moy": 2.241,
         "stations_count": 70,
-        "date": "2026-11-07T14:39:14.909811"
+        "date": "2026-11-07T19:20:03.520001"
       },
       "Auchan": {
         "gazole_moy": 2.117,
         "sp95_moy": 2.129,
         "stations_count": 17,
-        "date": "2026-11-07T14:39:14.909814"
+        "date": "2026-11-07T19:20:03.520005"
       },
       "Syst\u00e8me U": {
         "gazole_moy": 2.188,
         "sp95_moy": 2.072,
         "stations_count": 14,
-        "date": "2026-11-07T14:39:14.909816"
+        "date": "2026-11-07T19:20:03.520008"
       },
       "Autre": {
-        "gazole_moy": 2.241,
-        "sp95_moy": 2.111,
+        "gazole_moy": 2.24,
+        "sp95_moy": 2.102,
         "stations_count": 117,
-        "date": "2026-11-07T14:39:14.909821"
+        "date": "2026-11-07T19:20:03.520014"
       },
       "Shell": {
         "gazole_moy": 2.489,
         "sp95_moy": 2.449,
         "stations_count": 4,
-        "date": "2026-11-07T14:39:14.909824"
+        "date": "2026-11-07T19:20:03.520017"
       }
     }
   }
